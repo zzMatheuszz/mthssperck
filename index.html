@@ -1,25 +1,22 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matheus Galhardi | Tráfego Pago e Estratégia Digital</title>
-    <meta name="description" content="Estratégia de aquisição e tráfego pago para empresas que querem gerar oportunidades com mais previsibilidade e menos dependência de indicação.">
-    <meta name="theme-color" content="#000000">
-    
-    <!-- Pré-conexão para máxima velocidade de carregamento das fontes -->
-    <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <!-- Premium Fonts com font-display: swap nativo na URL -->
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest" defer></script>
-    
-    <script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Matheus Galhardi | Tráfego Pago e Estratégia Digital</title>
+<meta content="Estratégia de aquisição e tráfego pago para empresas que querem gerar oportunidades com mais previsibilidade e menos dependência de indicação." name="description"/>
+<meta content="#000000" name="theme-color"/>
+<!-- Pré-conexão para máxima velocidade de carregamento das fontes -->
+<link crossorigin="" href="https://api.fontshare.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<!-- Premium Fonts com font-display: swap nativo na URL -->
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<script defer="" src="https://unpkg.com/lucide@latest"></script>
+<script>
         tailwind.config = {
             theme: {
                 extend: {
@@ -59,7 +56,7 @@
             }
         }
     </script>
-    <style>
+<style>
         html { scroll-behavior: smooth; background-color: #000; }
         body { overflow-x: hidden; }
 
@@ -134,8 +131,7 @@
             .reveal { opacity: 1; transform: none; }
         }
     </style>
-
-    <script>
+<script>
         // Evita que o navegador restaure a posição anterior ao recarregar a página.
         if ('scrollRestoration' in history) {
             history.scrollRestoration = 'manual';
@@ -153,780 +149,675 @@
             window.scrollTo(0, 0);
         });
     </script>
-
 </head>
 <body class="bg-black text-white font-sans antialiased selection:bg-brand-blue selection:text-white overflow-hidden" id="body-content">
-
-    <!-- Preloader -->
-    <div id="preloader" class="fixed inset-0 z-[999] bg-black flex flex-col items-center justify-center transition-all duration-700 ease-apple">
-        <div class="relative flex flex-col items-center transform transition-all duration-700" id="preloader-content">
-            <img src="imagens/LOGO2.png"
-                 alt="Galhardi Logo"
-                 class="h-12 md:h-16 mb-8 animate-pulse object-contain">
-
-            <div class="w-48 md:w-64 h-[2px] bg-white/5 rounded-full overflow-hidden relative">
-                <div class="absolute top-0 left-0 h-full bg-brand-blue shadow-[0_0_15px_rgba(59,130,246,0.8)] animate-loading-fill"></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Header -->
-    <header class="fixed w-full top-0 z-50 bg-transparent border-b border-transparent py-2 transition-all duration-500 ease-apple" id="navbar">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 md:h-20 flex items-center justify-center relative transition-all duration-500" id="navbar-content">
-            <img src="imagens/LOGO2.png" alt="Galhardi Logo" class="h-6 md:h-8 object-contain">
-        </div>
-    </header>
-
-    <!-- 1. Hero Section -->
-    <section class="relative pt-20 pb-20 md:pt-28 md:pb-32 overflow-hidden bg-black min-h-[100svh] flex flex-col md:justify-center">
-        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[400px] md:w-[800px] h-[400px] md:h-[800px] bg-brand-blue/8 rounded-full blur-[80px] md:blur-[120px] pointer-events-none z-0 mix-blend-screen"></div>
-        <div class="absolute top-20 md:-top-10 left-1/2 -translate-x-1/2 text-[200px] md:text-[600px] font-extrabold text-white/[0.02] leading-none pointer-events-none z-0 select-none font-display tracking-tighter">M</div>
-
-        <div class="absolute top-8 md:top-20 left-1/2 -translate-x-1/2 w-full max-w-[800px] z-10 pointer-events-none flex justify-center opacity-95">
-            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-black/60 to-black z-20"></div>
-            <img src="imagens/matheus3.png" 
-                 alt="Matheus Galhardi" 
-                 fetchpriority="high"
-                 loading="eager"
-                 class="w-auto h-[340px] sm:h-[400px] md:h-[580px] object-cover object-top opacity-70 md:opacity-100 mix-blend-luminosity"
-                 style="-webkit-mask-image: linear-gradient(to bottom, black 30%, transparent 90%); mask-image: linear-gradient(to bottom, black 30%, transparent 90%); filter: contrast(1.05) saturate(1.1);">
-        </div>
-
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-30 text-center w-full mt-[240px] sm:mt-[270px] md:mt-[320px]">
-            <div class="inline-flex items-center gap-2 px-3 py-1.5 md:px-4 md:py-2 rounded-full border border-white/10 bg-black/40 backdrop-blur-md mb-6 reveal">
-                <span class="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-brand-blue animate-pulse"></span>
-                <span class="text-zinc-300 font-bold tracking-[0.22em] text-[11px] uppercase">Para empresas que cansaram de depender de indicação</span>
-            </div>
-            
-            <h1 class="font-display text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-[-0.04em] mb-4 md:mb-6 max-w-5xl mx-auto leading-[1.02] reveal drop-shadow-2xl">
-                Seu negócio não pode depender de <br class="hidden md:block"><span class="text-brand-blue">indicação para vender.</span>
-            </h1>
-            
-            <p class="text-base md:text-xl text-zinc-400 mb-8 md:mb-10 max-w-2xl mx-auto font-light leading-relaxed reveal drop-shadow-lg px-2">
+<!-- Preloader -->
+<div class="fixed inset-0 z-[999] bg-black flex flex-col items-center justify-center transition-all duration-700 ease-apple" id="preloader">
+<div class="relative flex flex-col items-center transform transition-all duration-700" id="preloader-content">
+<img alt="Galhardi Logo" class="h-12 md:h-16 mb-8 animate-pulse object-contain" src="imagens/LOGO2.png"/>
+<div class="w-48 md:w-64 h-[2px] bg-white/5 rounded-full overflow-hidden relative">
+<div class="absolute top-0 left-0 h-full bg-brand-blue shadow-[0_0_15px_rgba(59,130,246,0.8)] animate-loading-fill"></div>
+</div>
+</div>
+</div>
+<!-- Header -->
+<header class="fixed w-full top-0 z-50 bg-transparent border-b border-transparent py-2 transition-all duration-500 ease-apple" id="navbar">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 md:h-20 flex items-center justify-center relative transition-all duration-500" id="navbar-content">
+<img alt="Galhardi Logo" class="h-6 md:h-8 object-contain" src="imagens/LOGO2.png"/>
+<div aria-label="Selecionar idioma" class="absolute right-4 sm:right-6 lg:right-8 top-1/2 -translate-y-1/2 flex items-center gap-1 rounded-full border border-white/10 bg-black/45 backdrop-blur-md p-1 shadow-[0_8px_28px_rgba(0,0,0,0.28)]" id="language-switcher">
+<button aria-pressed="true" class="language-btn px-3 py-1.5 rounded-full text-[11px] md:text-xs font-bold tracking-[0.12em] transition-all duration-300 bg-brand-blue text-white shadow-[0_0_16px_rgba(59,130,246,0.35)]" data-lang="pt" onclick="setLanguage('pt')" type="button">PT</button>
+<button aria-pressed="false" class="language-btn px-3 py-1.5 rounded-full text-[11px] md:text-xs font-bold tracking-[0.12em] transition-all duration-300 text-zinc-400 hover:text-white" data-lang="en" onclick="setLanguage('en')" type="button">EN</button>
+<button aria-pressed="false" class="language-btn px-3 py-1.5 rounded-full text-[11px] md:text-xs font-bold tracking-[0.12em] transition-all duration-300 text-zinc-400 hover:text-white" data-lang="es" onclick="setLanguage('es')" type="button">ES</button>
+</div></div>
+</header>
+<!-- 1. Hero Section -->
+<section class="relative pt-20 pb-20 md:pt-28 md:pb-32 overflow-hidden bg-black min-h-[100svh] flex flex-col md:justify-center">
+<div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[400px] md:w-[800px] h-[400px] md:h-[800px] bg-brand-blue/8 rounded-full blur-[80px] md:blur-[120px] pointer-events-none z-0 mix-blend-screen"></div>
+<div class="absolute top-20 md:-top-10 left-1/2 -translate-x-1/2 text-[200px] md:text-[600px] font-extrabold text-white/[0.02] leading-none pointer-events-none z-0 select-none font-display tracking-tighter">M</div>
+<div class="absolute top-8 md:top-20 left-1/2 -translate-x-1/2 w-full max-w-[800px] z-10 pointer-events-none flex justify-center opacity-95">
+<div class="absolute inset-0 bg-gradient-to-b from-transparent via-black/60 to-black z-20"></div>
+<img alt="Matheus Galhardi" class="w-auto h-[340px] sm:h-[400px] md:h-[580px] object-cover object-top opacity-70 md:opacity-100 mix-blend-luminosity" fetchpriority="high" loading="eager" src="imagens/matheus3.png" style="-webkit-mask-image: linear-gradient(to bottom, black 30%, transparent 90%); mask-image: linear-gradient(to bottom, black 30%, transparent 90%); filter: contrast(1.05) saturate(1.1);"/>
+</div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-30 text-center w-full mt-[240px] sm:mt-[270px] md:mt-[320px]">
+<div class="inline-flex items-center gap-2 px-3 py-1.5 md:px-4 md:py-2 rounded-full border border-white/10 bg-black/40 backdrop-blur-md mb-6 reveal">
+<span class="w-1.5 h-1.5 md:w-2 md:h-2 rounded-full bg-brand-blue animate-pulse"></span>
+<span class="text-zinc-300 font-bold tracking-[0.22em] text-[11px] uppercase">Para empresas que cansaram de depender de indicação</span>
+</div>
+<h1 class="font-display text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-[-0.04em] mb-4 md:mb-6 max-w-5xl mx-auto leading-[1.02] reveal drop-shadow-2xl">
+                Seu negócio não pode depender de <br class="hidden md:block"/><span class="text-brand-blue">indicação para vender.</span>
+</h1>
+<p class="text-base md:text-xl text-zinc-400 mb-8 md:mb-10 max-w-2xl mx-auto font-light leading-relaxed reveal drop-shadow-lg px-2">
                 Eu estruturo um ecossistema de captação para atrair pessoas com intenção de compra, qualificar os contatos certos e transformar tráfego em <strong class="text-white font-medium">clientes reais.</strong>
-            </p>
-            
-            <div class="flex flex-col items-center gap-3 relative z-40 reveal px-4 sm:px-0">
-                <button onclick="openModal()" class="btn-padrao w-full sm:w-auto">
+</p>
+<div class="flex flex-col items-center gap-3 relative z-40 reveal px-4 sm:px-0">
+<button class="btn-padrao w-full sm:w-auto" onclick="openModal()">
                     Quero meu diagnóstico estratégico
                 </button>
-                <p class="text-xs md:text-sm text-zinc-500 mt-2 font-medium max-w-sm text-center mx-auto">
+<p class="text-xs md:text-sm text-zinc-500 mt-2 font-medium max-w-sm text-center mx-auto">
                     Sem compromisso. Eu analiso seu cenário e mostro onde sua empresa pode estar perdendo clientes.
                 </p>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- 2. O Problema -->
-    <section class="py-28 lg:py-32 bg-[#020202] relative border-t border-white/5 overflow-hidden">
-      <!-- Fundo Padronizado: Grid -->
-      
-      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
-          
-          <div class="lg:col-span-7 reveal">
-            <h2 class="font-display text-[34px] md:text-[48px] lg:text-[54px] font-bold leading-[1.02] tracking-[-0.04em] text-white max-w-[850px] mb-6 md:mb-8 text-balance">
-              Enquanto sua empresa depender de indicação, <br class="hidden lg:block">
-              <span class="text-brand-blue">seu crescimento continua sem controle.</span>
-            </h2>
-
-            <p class="max-w-[540px] text-[16px] md:text-[18px] leading-relaxed text-zinc-400 font-light mb-10 md:mb-12">
+</div>
+</div>
+</section>
+<!-- 2. O Problema -->
+<section class="py-28 lg:py-32 bg-[#020202] relative border-t border-white/5 overflow-hidden">
+<!-- Fundo Padronizado: Grid -->
+<div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid lg:grid-cols-12 gap-12 lg:gap-20 items-center">
+<div class="lg:col-span-7 reveal">
+<h2 class="font-display text-[34px] md:text-[48px] lg:text-[54px] font-bold leading-[1.02] tracking-[-0.04em] text-white max-w-[850px] mb-6 md:mb-8 text-balance">
+              Enquanto sua empresa depender de indicação, <br class="hidden lg:block"/>
+<span class="text-brand-blue">seu crescimento continua sem controle.</span>
+</h2>
+<p class="max-w-[540px] text-[16px] md:text-[18px] leading-relaxed text-zinc-400 font-light mb-10 md:mb-12">
               Indicação mostra que sua empresa entrega bem. O problema começa quando ela vira o principal canal de entrada e as vendas passam a oscilar sem previsibilidade.
             </p>
-
-            <div class="pl-0">
-              <p class="text-[15px] md:text-[16px] font-medium text-zinc-200 leading-relaxed max-w-[520px]">
+<div class="pl-0">
+<p class="text-[15px] md:text-[16px] font-medium text-zinc-200 leading-relaxed max-w-[520px]">
                 Quem depende só de indicação não controla o fluxo de oportunidades.
               </p>
-            </div>
-          </div>
-
-          <div class="lg:col-span-5 reveal lg:translate-y-5" style="transition-delay: 150ms;">
-            <div class="relative rounded-[32px] border border-white/[0.09] bg-[#07090f]/80 p-6 md:p-7 shadow-[0_28px_90px_rgba(0,0,0,0.55)] backdrop-blur-xl overflow-hidden">
-              
-              <div class="absolute inset-0 bg-gradient-to-br from-brand-blue/[0.08] via-transparent to-transparent pointer-events-none"></div>
-              <div class="absolute -top-28 -right-24 w-56 h-56 rounded-full bg-brand-blue/10 blur-[80px] pointer-events-none"></div>
-
-              <div class="relative z-10">
-                <div class="flex items-start justify-between gap-5 mb-7">
-                  <div>
-                    <h3 class="font-display text-[24px] md:text-[30px] font-bold tracking-[-0.04em] text-white leading-[1.02] max-w-[320px]">
+</div>
+</div>
+<div class="lg:col-span-5 reveal lg:translate-y-5" style="transition-delay: 150ms;">
+<div class="relative rounded-[32px] border border-white/[0.09] bg-[#07090f]/80 p-6 md:p-7 shadow-[0_28px_90px_rgba(0,0,0,0.55)] backdrop-blur-xl overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-br from-brand-blue/[0.08] via-transparent to-transparent pointer-events-none"></div>
+<div class="absolute -top-28 -right-24 w-56 h-56 rounded-full bg-brand-blue/10 blur-[80px] pointer-events-none"></div>
+<div class="relative z-10">
+<div class="flex items-start justify-between gap-5 mb-7">
+<div>
+<h3 class="font-display text-[24px] md:text-[30px] font-bold tracking-[-0.04em] text-white leading-[1.02] max-w-[320px]">
                       Sinais de dependência comercial
                     </h3>
-                  </div>
-                  <div class="hidden sm:flex w-11 h-11 rounded-2xl bg-brand-blue/10 border border-brand-blue/20 items-center justify-center shrink-0">
-                    <i data-lucide="alert-circle" class="w-5 h-5 text-brand-blue"></i>
-                  </div>
-                </div>
-
-                <div class="space-y-3">
-                  <div class="rounded-2xl border border-white/[0.07] bg-black/35 px-5 py-3.5 transition-all duration-300 hover:border-brand-blue/25 hover:bg-black/50">
-                    <div class="flex items-start gap-4">
-                      <span class="font-display text-brand-blue text-xs font-bold pt-1 tracking-tight">01</span>
-                      <div>
-                        <h4 class="text-white text-[15px] font-semibold leading-tight mb-1">Vendas instáveis</h4>
-                        <p class="text-zinc-500 text-sm leading-relaxed">Meses bons, meses fracos.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="rounded-2xl border border-white/[0.07] bg-black/35 px-5 py-3.5 transition-all duration-300 hover:border-brand-blue/25 hover:bg-black/50">
-                    <div class="flex items-start gap-4">
-                      <span class="font-display text-brand-blue text-xs font-bold pt-1 tracking-tight">02</span>
-                      <div>
-                        <h4 class="text-white text-[15px] font-semibold leading-tight mb-1">WhatsApp oscilando</h4>
-                        <p class="text-zinc-500 text-sm leading-relaxed">Ora aparecem contatos, ora some tudo.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="rounded-2xl border border-white/[0.07] bg-black/35 px-5 py-3.5 transition-all duration-300 hover:border-brand-blue/25 hover:bg-black/50">
-                    <div class="flex items-start gap-4">
-                      <span class="font-display text-brand-blue text-xs font-bold pt-1 tracking-tight">03</span>
-                      <div>
-                        <h4 class="text-white text-[15px] font-semibold leading-tight mb-1">Próximo cliente incerto</h4>
-                        <p class="text-zinc-500 text-sm leading-relaxed">Você nunca sabe de onde ele virá.</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="rounded-2xl border border-white/[0.07] bg-black/35 px-5 py-3.5 transition-all duration-300 hover:border-brand-blue/25 hover:bg-black/50">
-                    <div class="flex items-start gap-4">
-                      <span class="font-display text-brand-blue text-xs font-bold pt-1 tracking-tight">04</span>
-                      <div>
-                        <h4 class="text-white text-[15px] font-semibold leading-tight mb-1">Demanda abaixo da capacidade</h4>
-                        <p class="text-zinc-500 text-sm leading-relaxed">Você consegue atender mais, mas não cresce com constância.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="mt-7 w-full">
-                    <button onclick="openModal()" class="btn-padrao w-full">
+</div>
+<div class="hidden sm:flex w-11 h-11 rounded-2xl bg-brand-blue/10 border border-brand-blue/20 items-center justify-center shrink-0">
+<i class="w-5 h-5 text-brand-blue" data-lucide="alert-circle"></i>
+</div>
+</div>
+<div class="space-y-3">
+<div class="rounded-2xl border border-white/[0.07] bg-black/35 px-5 py-3.5 transition-all duration-300 hover:border-brand-blue/25 hover:bg-black/50">
+<div class="flex items-start gap-4">
+<span class="font-display text-brand-blue text-xs font-bold pt-1 tracking-tight">01</span>
+<div>
+<h4 class="text-white text-[15px] font-semibold leading-tight mb-1">Vendas instáveis</h4>
+<p class="text-zinc-500 text-sm leading-relaxed">Meses bons, meses fracos.</p>
+</div>
+</div>
+</div>
+<div class="rounded-2xl border border-white/[0.07] bg-black/35 px-5 py-3.5 transition-all duration-300 hover:border-brand-blue/25 hover:bg-black/50">
+<div class="flex items-start gap-4">
+<span class="font-display text-brand-blue text-xs font-bold pt-1 tracking-tight">02</span>
+<div>
+<h4 class="text-white text-[15px] font-semibold leading-tight mb-1">WhatsApp oscilando</h4>
+<p class="text-zinc-500 text-sm leading-relaxed">Ora aparecem contatos, ora some tudo.</p>
+</div>
+</div>
+</div>
+<div class="rounded-2xl border border-white/[0.07] bg-black/35 px-5 py-3.5 transition-all duration-300 hover:border-brand-blue/25 hover:bg-black/50">
+<div class="flex items-start gap-4">
+<span class="font-display text-brand-blue text-xs font-bold pt-1 tracking-tight">03</span>
+<div>
+<h4 class="text-white text-[15px] font-semibold leading-tight mb-1">Próximo cliente incerto</h4>
+<p class="text-zinc-500 text-sm leading-relaxed">Você nunca sabe de onde ele virá.</p>
+</div>
+</div>
+</div>
+<div class="rounded-2xl border border-white/[0.07] bg-black/35 px-5 py-3.5 transition-all duration-300 hover:border-brand-blue/25 hover:bg-black/50">
+<div class="flex items-start gap-4">
+<span class="font-display text-brand-blue text-xs font-bold pt-1 tracking-tight">04</span>
+<div>
+<h4 class="text-white text-[15px] font-semibold leading-tight mb-1">Demanda abaixo da capacidade</h4>
+<p class="text-zinc-500 text-sm leading-relaxed">Você consegue atender mais, mas não cresce com constância.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-7 w-full">
+<button class="btn-padrao w-full" onclick="openModal()">
                         Quero meu diagnóstico estratégico
                     </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 3. Como Funciona o Diagnóstico -->
-    <section class="py-24 md:py-32 bg-[#020202] relative border-t border-white/5 overflow-hidden">
-        <!-- Fundo Padronizado: Grid + Orbe Central -->
-        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-blue/10 rounded-full blur-[120px] pointer-events-none mix-blend-screen"></div>
-        
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="text-center mb-16 reveal">
-                <h2 class="font-display text-3xl md:text-5xl font-bold tracking-[-0.04em] text-white">Como funciona o <span class="text-brand-blue">Diagnóstico?</span></h2>
-                <p class="text-zinc-400 mt-4 max-w-2xl mx-auto text-base">Sem enrolação. É assim que começamos a transformar aquisição em um processo mais previsível.</p>
-            </div>
-
-            <div class="grid md:grid-cols-3 gap-8 md:gap-12 relative reveal" style="transition-delay: 150ms;">
-                <div class="relative z-10 flex flex-col items-center text-center group">
-                    <div class="w-16 h-16 rounded-2xl bg-[#020202] border border-white/10 flex items-center justify-center mb-6 shadow-lg group-hover:border-brand-blue/50 transition-colors">
-                        <i data-lucide="file-text" class="w-7 h-7 text-zinc-400 group-hover:text-white transition-colors"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mb-2">1. Formulário</h3>
-                    <p class="text-zinc-500 text-sm leading-relaxed px-4">Preencha as informações básicas para eu entender o momento atual do seu negócio.</p>
-                </div>
-
-                <div class="relative z-10 flex flex-col items-center text-center group">
-                    <div class="w-20 h-20 rounded-2xl bg-brand-blue border border-brand-lightBlue/30 flex items-center justify-center mb-4 shadow-[0_0_30px_rgba(59,130,246,0.3)] transform scale-110">
-                        <i data-lucide="video" class="w-8 h-8 text-white"></i>
-                    </div>
-                    <h3 class="text-2xl font-bold text-brand-lightBlue mb-2 mt-2">2. Reunião Meet</h3>
-                    <p class="text-zinc-300 text-sm leading-relaxed px-4">Em uma reunião estratégica via Google Meet, vou mapear onde você está perdendo dinheiro.</p>
-                </div>
-
-                <div class="relative z-10 flex flex-col items-center text-center group">
-                    <div class="w-16 h-16 rounded-2xl bg-black border border-white/10 flex items-center justify-center mb-6 shadow-lg group-hover:border-brand-blue/50 transition-colors">
-                        <i data-lucide="map" class="w-7 h-7 text-zinc-400 group-hover:text-white transition-colors"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mb-2">3. Plano de Ação</h3>
-                    <p class="text-zinc-500 text-sm leading-relaxed px-4">Se fizer sentido trabalharmos juntos, te apresento a engenharia exata para escalar seu funil.</p>
-                </div>
-            </div>
-
-            <div class="mt-16 text-center reveal" style="transition-delay: 250ms;">
-                <button onclick="openModal()" class="btn-padrao">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. Como Funciona o Diagnóstico -->
+<section class="py-24 md:py-32 bg-[#020202] relative border-t border-white/5 overflow-hidden">
+<!-- Fundo Padronizado: Grid + Orbe Central -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-blue/10 rounded-full blur-[120px] pointer-events-none mix-blend-screen"></div>
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="text-center mb-16 reveal">
+<h2 class="font-display text-3xl md:text-5xl font-bold tracking-[-0.04em] text-white">Como funciona o <span class="text-brand-blue">Diagnóstico?</span></h2>
+<p class="text-zinc-400 mt-4 max-w-2xl mx-auto text-base">Sem enrolação. É assim que começamos a transformar aquisição em um processo mais previsível.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8 md:gap-12 relative reveal" style="transition-delay: 150ms;">
+<div class="relative z-10 flex flex-col items-center text-center group">
+<div class="w-16 h-16 rounded-2xl bg-[#020202] border border-white/10 flex items-center justify-center mb-6 shadow-lg group-hover:border-brand-blue/50 transition-colors">
+<i class="w-7 h-7 text-zinc-400 group-hover:text-white transition-colors" data-lucide="file-text"></i>
+</div>
+<h3 class="text-xl font-bold text-white mb-2">1. Formulário</h3>
+<p class="text-zinc-500 text-sm leading-relaxed px-4">Preencha as informações básicas para eu entender o momento atual do seu negócio.</p>
+</div>
+<div class="relative z-10 flex flex-col items-center text-center group">
+<div class="w-20 h-20 rounded-2xl bg-brand-blue border border-brand-lightBlue/30 flex items-center justify-center mb-4 shadow-[0_0_30px_rgba(59,130,246,0.3)] transform scale-110">
+<i class="w-8 h-8 text-white" data-lucide="video"></i>
+</div>
+<h3 class="text-2xl font-bold text-brand-lightBlue mb-2 mt-2">2. Reunião Meet</h3>
+<p class="text-zinc-300 text-sm leading-relaxed px-4">Em uma reunião estratégica via Google Meet, vou mapear onde você está perdendo dinheiro.</p>
+</div>
+<div class="relative z-10 flex flex-col items-center text-center group">
+<div class="w-16 h-16 rounded-2xl bg-black border border-white/10 flex items-center justify-center mb-6 shadow-lg group-hover:border-brand-blue/50 transition-colors">
+<i class="w-7 h-7 text-zinc-400 group-hover:text-white transition-colors" data-lucide="map"></i>
+</div>
+<h3 class="text-xl font-bold text-white mb-2">3. Plano de Ação</h3>
+<p class="text-zinc-500 text-sm leading-relaxed px-4">Se fizer sentido trabalharmos juntos, te apresento a engenharia exata para escalar seu funil.</p>
+</div>
+</div>
+<div class="mt-16 text-center reveal" style="transition-delay: 250ms;">
+<button class="btn-padrao" onclick="openModal()">
                     Quero meu diagnóstico estratégico
                 </button>
-            </div>
-        </div>
-    </section>
-
-    <!-- 4. Galeria de Resultados (Com Carrossel Infinito) -->
-    <section class="py-24 md:py-32 bg-[#020202] relative border-t border-white/5 overflow-hidden">
-        <!-- Fundo Padronizado -->
-        
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-            <div class="mb-12 md:mb-16 reveal">
-                <h2 class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-[64px] font-bold tracking-[-0.04em] text-white mb-4 md:mb-5 leading-[1.02]">
+</div>
+</div>
+</section>
+<!-- 4. Galeria de Resultados (Com Carrossel Infinito) -->
+<section class="py-24 md:py-32 bg-[#020202] relative border-t border-white/5 overflow-hidden">
+<!-- Fundo Padronizado -->
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+<div class="mb-12 md:mb-16 reveal">
+<h2 class="font-display text-3xl sm:text-4xl md:text-5xl lg:text-[64px] font-bold tracking-[-0.04em] text-white mb-4 md:mb-5 leading-[1.02]">
                     Negócios que trocaram indicação por <span class="text-brand-blue">previsibilidade.</span>
-                </h2>
-                <p class="text-zinc-400 text-base md:text-xl font-light leading-relaxed max-w-3xl mx-auto">
+</h2>
+<p class="text-zinc-400 text-base md:text-xl font-light leading-relaxed max-w-3xl mx-auto">
                     Depoimentos reais de operações que começaram a construir canais consistentes de aquisição, vendas e crescimento sem depender apenas do boca a boca.
                 </p>
-                <div class="mt-5 inline-flex items-center gap-2 text-xs md:text-sm text-zinc-500">
-                    <i data-lucide="search" class="w-4 h-4 text-brand-blue"></i>
+<div class="mt-5 inline-flex items-center gap-2 text-xs md:text-sm text-zinc-500">
+<i class="w-4 h-4 text-brand-blue" data-lucide="search"></i>
                     Clique em cada resultado para analisar a prova completa.
                 </div>
-            </div>
-        </div>
-
-        <!-- Carrossel Marquee Horizontal Infinito -->
-        <div class="relative w-full overflow-hidden flex items-center group py-4 reveal" style="transition-delay: 100ms;">
-            <!-- Sombras laterais para fade-in e fade-out suave -->
-            <div class="absolute inset-y-0 left-0 w-16 md:w-32 bg-gradient-to-r from-[#020202] to-transparent z-20 pointer-events-none"></div>
-            <div class="absolute inset-y-0 right-0 w-16 md:w-32 bg-gradient-to-l from-[#020202] to-transparent z-20 pointer-events-none"></div>
-            
-            <div class="flex w-max animate-marquee hover:[animation-play-state:paused]">
-                
-                <!-- Bloco 1 -->
-                <div class="flex flex-nowrap gap-5 md:gap-6 pr-5 md:pr-6">
-                    <div class="w-[280px] md:w-[320px] flex-none group/card rounded-[28px] border border-white/10 bg-[#070707] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.45)] hover:-translate-y-1 transition-all duration-500 cursor-pointer" onclick="openImageModal('imagens/depoimento1.jpeg')">
-                        <div class="relative aspect-[4/5] overflow-hidden rounded-[22px] bg-[#020202] border border-white/10">
-                            <img src="imagens/depoimento1.jpeg" loading="lazy" alt="Depoimento de cliente 1" class="w-full h-full object-contain opacity-95 group-hover/card:scale-[1.015] transition-transform duration-700">
-                            <div class="absolute inset-0 bg-black/20 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
-                                <div class="w-12 h-12 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white/80 border border-white/10 transform scale-75 group-hover/card:scale-100 transition-all duration-300">
-                                    <i data-lucide="zoom-in" class="w-5 h-5"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w-[280px] md:w-[320px] flex-none group/card rounded-[28px] border border-white/10 bg-[#070707] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.45)] hover:-translate-y-1 transition-all duration-500 cursor-pointer" onclick="openImageModal('imagens/depoimento2.jpeg')">
-                        <div class="relative aspect-[4/5] overflow-hidden rounded-[22px] bg-black border border-white/10">
-                            <img src="imagens/depoimento2.jpeg" loading="lazy" alt="Depoimento de cliente 2" class="w-full h-full object-contain opacity-95 group-hover/card:scale-[1.015] transition-transform duration-700">
-                            <div class="absolute inset-0 bg-black/20 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
-                                <div class="w-12 h-12 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white/80 border border-white/10 transform scale-75 group-hover/card:scale-100 transition-all duration-300">
-                                    <i data-lucide="zoom-in" class="w-5 h-5"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w-[280px] md:w-[320px] flex-none group/card rounded-[28px] border border-white/10 bg-[#070707] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.45)] hover:-translate-y-1 transition-all duration-500 cursor-pointer" onclick="openImageModal('imagens/depoimento3.jpeg')">
-                        <div class="relative aspect-[4/5] overflow-hidden rounded-[22px] bg-black border border-white/10">
-                            <img src="imagens/depoimento3.jpeg" loading="lazy" alt="Depoimento de cliente 3" class="w-full h-full object-contain opacity-95 group-hover/card:scale-[1.015] transition-transform duration-700">
-                            <div class="absolute inset-0 bg-black/20 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
-                                <div class="w-12 h-12 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white/80 border border-white/10 transform scale-75 group-hover/card:scale-100 transition-all duration-300">
-                                    <i data-lucide="zoom-in" class="w-5 h-5"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w-[280px] md:w-[320px] flex-none group/card rounded-[28px] border border-white/10 bg-[#070707] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.45)] hover:-translate-y-1 transition-all duration-500 cursor-pointer" onclick="openImageModal('imagens/depoimento4.png')">
-                        <div class="relative aspect-[4/5] overflow-hidden rounded-[22px] bg-black border border-white/10">
-                            <img src="imagens/depoimento4.png" loading="lazy" alt="Depoimento de cliente 4" class="w-full h-full object-contain opacity-95 group-hover/card:scale-[1.015] transition-transform duration-700">
-                            <div class="absolute inset-0 bg-black/20 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
-                                <div class="w-12 h-12 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white/80 border border-white/10 transform scale-75 group-hover/card:scale-100 transition-all duration-300">
-                                    <i data-lucide="zoom-in" class="w-5 h-5"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Bloco 2 (Cópia exata para criar o loop contínuo) -->
-                <div class="flex flex-nowrap gap-5 md:gap-6 pr-5 md:pr-6" aria-hidden="true">
-                    <div class="w-[280px] md:w-[320px] flex-none group/card rounded-[28px] border border-white/10 bg-[#070707] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.45)] hover:-translate-y-1 transition-all duration-500 cursor-pointer" onclick="openImageModal('imagens/depoimento1.jpeg')">
-                        <div class="relative aspect-[4/5] overflow-hidden rounded-[22px] bg-black border border-white/10">
-                            <img src="imagens/depoimento1.jpeg" loading="lazy" alt="Depoimento de cliente 1" class="w-full h-full object-contain opacity-95 group-hover/card:scale-[1.015] transition-transform duration-700">
-                            <div class="absolute inset-0 bg-black/20 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
-                                <div class="w-12 h-12 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white/80 border border-white/10 transform scale-75 group-hover/card:scale-100 transition-all duration-300">
-                                    <i data-lucide="zoom-in" class="w-5 h-5"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w-[280px] md:w-[320px] flex-none group/card rounded-[28px] border border-white/10 bg-[#070707] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.45)] hover:-translate-y-1 transition-all duration-500 cursor-pointer" onclick="openImageModal('imagens/depoimento2.jpeg')">
-                        <div class="relative aspect-[4/5] overflow-hidden rounded-[22px] bg-black border border-white/10">
-                            <img src="imagens/depoimento2.jpeg" loading="lazy" alt="Depoimento de cliente 2" class="w-full h-full object-contain opacity-95 group-hover/card:scale-[1.015] transition-transform duration-700">
-                            <div class="absolute inset-0 bg-black/20 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
-                                <div class="w-12 h-12 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white/80 border border-white/10 transform scale-75 group-hover/card:scale-100 transition-all duration-300">
-                                    <i data-lucide="zoom-in" class="w-5 h-5"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w-[280px] md:w-[320px] flex-none group/card rounded-[28px] border border-white/10 bg-[#070707] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.45)] hover:-translate-y-1 transition-all duration-500 cursor-pointer" onclick="openImageModal('imagens/depoimento3.jpeg')">
-                        <div class="relative aspect-[4/5] overflow-hidden rounded-[22px] bg-black border border-white/10">
-                            <img src="imagens/depoimento3.jpeg" loading="lazy" alt="Depoimento de cliente 3" class="w-full h-full object-contain opacity-95 group-hover/card:scale-[1.015] transition-transform duration-700">
-                            <div class="absolute inset-0 bg-black/20 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
-                                <div class="w-12 h-12 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white/80 border border-white/10 transform scale-75 group-hover/card:scale-100 transition-all duration-300">
-                                    <i data-lucide="zoom-in" class="w-5 h-5"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w-[280px] md:w-[320px] flex-none group/card rounded-[28px] border border-white/10 bg-[#070707] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.45)] hover:-translate-y-1 transition-all duration-500 cursor-pointer" onclick="openImageModal('imagens/depoimento4.png')">
-                        <div class="relative aspect-[4/5] overflow-hidden rounded-[22px] bg-black border border-white/10">
-                            <img src="imagens/depoimento4.png" loading="lazy" alt="Depoimento de cliente 4" class="w-full h-full object-contain opacity-95 group-hover/card:scale-[1.015] transition-transform duration-700">
-                            <div class="absolute inset-0 bg-black/20 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
-                                <div class="w-12 h-12 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white/80 border border-white/10 transform scale-75 group-hover/card:scale-100 transition-all duration-300">
-                                    <i data-lucide="zoom-in" class="w-5 h-5"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="mt-12 md:mt-16 flex justify-center relative z-10 reveal" style="transition-delay: 200ms;">
-            <button onclick="openModal()" class="btn-padrao">
+</div>
+</div>
+<!-- Carrossel Marquee Horizontal Infinito -->
+<div class="relative w-full overflow-hidden flex items-center group py-4 reveal" style="transition-delay: 100ms;">
+<!-- Sombras laterais para fade-in e fade-out suave -->
+<div class="absolute inset-y-0 left-0 w-16 md:w-32 bg-gradient-to-r from-[#020202] to-transparent z-20 pointer-events-none"></div>
+<div class="absolute inset-y-0 right-0 w-16 md:w-32 bg-gradient-to-l from-[#020202] to-transparent z-20 pointer-events-none"></div>
+<div class="flex w-max animate-marquee hover:[animation-play-state:paused]">
+<!-- Bloco 1 -->
+<div class="flex flex-nowrap gap-5 md:gap-6 pr-5 md:pr-6">
+<div class="w-[280px] md:w-[320px] flex-none group/card rounded-[28px] border border-white/10 bg-[#070707] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.45)] hover:-translate-y-1 transition-all duration-500 cursor-pointer" onclick="openImageModal('imagens/depoimento1.jpeg')">
+<div class="relative aspect-[4/5] overflow-hidden rounded-[22px] bg-[#020202] border border-white/10">
+<img alt="Depoimento de cliente 1" class="w-full h-full object-contain opacity-95 group-hover/card:scale-[1.015] transition-transform duration-700" loading="lazy" src="imagens/depoimento1.jpeg"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
+<div class="w-12 h-12 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white/80 border border-white/10 transform scale-75 group-hover/card:scale-100 transition-all duration-300">
+<i class="w-5 h-5" data-lucide="zoom-in"></i>
+</div>
+</div>
+</div>
+</div>
+<div class="w-[280px] md:w-[320px] flex-none group/card rounded-[28px] border border-white/10 bg-[#070707] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.45)] hover:-translate-y-1 transition-all duration-500 cursor-pointer" onclick="openImageModal('imagens/depoimento2.jpeg')">
+<div class="relative aspect-[4/5] overflow-hidden rounded-[22px] bg-black border border-white/10">
+<img alt="Depoimento de cliente 2" class="w-full h-full object-contain opacity-95 group-hover/card:scale-[1.015] transition-transform duration-700" loading="lazy" src="imagens/depoimento2.jpeg"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
+<div class="w-12 h-12 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white/80 border border-white/10 transform scale-75 group-hover/card:scale-100 transition-all duration-300">
+<i class="w-5 h-5" data-lucide="zoom-in"></i>
+</div>
+</div>
+</div>
+</div>
+<div class="w-[280px] md:w-[320px] flex-none group/card rounded-[28px] border border-white/10 bg-[#070707] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.45)] hover:-translate-y-1 transition-all duration-500 cursor-pointer" onclick="openImageModal('imagens/depoimento3.jpeg')">
+<div class="relative aspect-[4/5] overflow-hidden rounded-[22px] bg-black border border-white/10">
+<img alt="Depoimento de cliente 3" class="w-full h-full object-contain opacity-95 group-hover/card:scale-[1.015] transition-transform duration-700" loading="lazy" src="imagens/depoimento3.jpeg"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
+<div class="w-12 h-12 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white/80 border border-white/10 transform scale-75 group-hover/card:scale-100 transition-all duration-300">
+<i class="w-5 h-5" data-lucide="zoom-in"></i>
+</div>
+</div>
+</div>
+</div>
+<div class="w-[280px] md:w-[320px] flex-none group/card rounded-[28px] border border-white/10 bg-[#070707] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.45)] hover:-translate-y-1 transition-all duration-500 cursor-pointer" onclick="openImageModal('imagens/depoimento4.png')">
+<div class="relative aspect-[4/5] overflow-hidden rounded-[22px] bg-black border border-white/10">
+<img alt="Depoimento de cliente 4" class="w-full h-full object-contain opacity-95 group-hover/card:scale-[1.015] transition-transform duration-700" loading="lazy" src="imagens/depoimento4.png"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
+<div class="w-12 h-12 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white/80 border border-white/10 transform scale-75 group-hover/card:scale-100 transition-all duration-300">
+<i class="w-5 h-5" data-lucide="zoom-in"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Bloco 2 (Cópia exata para criar o loop contínuo) -->
+<div aria-hidden="true" class="flex flex-nowrap gap-5 md:gap-6 pr-5 md:pr-6">
+<div class="w-[280px] md:w-[320px] flex-none group/card rounded-[28px] border border-white/10 bg-[#070707] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.45)] hover:-translate-y-1 transition-all duration-500 cursor-pointer" onclick="openImageModal('imagens/depoimento1.jpeg')">
+<div class="relative aspect-[4/5] overflow-hidden rounded-[22px] bg-black border border-white/10">
+<img alt="Depoimento de cliente 1" class="w-full h-full object-contain opacity-95 group-hover/card:scale-[1.015] transition-transform duration-700" loading="lazy" src="imagens/depoimento1.jpeg"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
+<div class="w-12 h-12 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white/80 border border-white/10 transform scale-75 group-hover/card:scale-100 transition-all duration-300">
+<i class="w-5 h-5" data-lucide="zoom-in"></i>
+</div>
+</div>
+</div>
+</div>
+<div class="w-[280px] md:w-[320px] flex-none group/card rounded-[28px] border border-white/10 bg-[#070707] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.45)] hover:-translate-y-1 transition-all duration-500 cursor-pointer" onclick="openImageModal('imagens/depoimento2.jpeg')">
+<div class="relative aspect-[4/5] overflow-hidden rounded-[22px] bg-black border border-white/10">
+<img alt="Depoimento de cliente 2" class="w-full h-full object-contain opacity-95 group-hover/card:scale-[1.015] transition-transform duration-700" loading="lazy" src="imagens/depoimento2.jpeg"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
+<div class="w-12 h-12 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white/80 border border-white/10 transform scale-75 group-hover/card:scale-100 transition-all duration-300">
+<i class="w-5 h-5" data-lucide="zoom-in"></i>
+</div>
+</div>
+</div>
+</div>
+<div class="w-[280px] md:w-[320px] flex-none group/card rounded-[28px] border border-white/10 bg-[#070707] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.45)] hover:-translate-y-1 transition-all duration-500 cursor-pointer" onclick="openImageModal('imagens/depoimento3.jpeg')">
+<div class="relative aspect-[4/5] overflow-hidden rounded-[22px] bg-black border border-white/10">
+<img alt="Depoimento de cliente 3" class="w-full h-full object-contain opacity-95 group-hover/card:scale-[1.015] transition-transform duration-700" loading="lazy" src="imagens/depoimento3.jpeg"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
+<div class="w-12 h-12 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white/80 border border-white/10 transform scale-75 group-hover/card:scale-100 transition-all duration-300">
+<i class="w-5 h-5" data-lucide="zoom-in"></i>
+</div>
+</div>
+</div>
+</div>
+<div class="w-[280px] md:w-[320px] flex-none group/card rounded-[28px] border border-white/10 bg-[#070707] p-3 shadow-[0_20px_60px_rgba(0,0,0,0.45)] hover:-translate-y-1 transition-all duration-500 cursor-pointer" onclick="openImageModal('imagens/depoimento4.png')">
+<div class="relative aspect-[4/5] overflow-hidden rounded-[22px] bg-black border border-white/10">
+<img alt="Depoimento de cliente 4" class="w-full h-full object-contain opacity-95 group-hover/card:scale-[1.015] transition-transform duration-700" loading="lazy" src="imagens/depoimento4.png"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover/card:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
+<div class="w-12 h-12 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white/80 border border-white/10 transform scale-75 group-hover/card:scale-100 transition-all duration-300">
+<i class="w-5 h-5" data-lucide="zoom-in"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-12 md:mt-16 flex justify-center relative z-10 reveal" style="transition-delay: 200ms;">
+<button class="btn-padrao" onclick="openModal()">
                 Quero meu diagnóstico estratégico
             </button>
-        </div>
-    </section>
-
-
-    <!-- 5. Estudo de Caso (Vídeo) -->
-    <section class="py-24 md:py-32 bg-[#020202] relative border-t border-white/5 overflow-hidden">
-        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[520px] h-[520px] bg-brand-blue/[0.07] rounded-full blur-[130px] pointer-events-none"></div>
-
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-            <div class="max-w-3xl mx-auto mb-10 md:mb-12 reveal">
-                <h2 class="font-display text-3xl md:text-5xl font-bold tracking-[-0.04em] leading-[1.02] text-white">
+</div>
+</section>
+<!-- 5. Estudo de Caso (Vídeo) -->
+<section class="py-24 md:py-32 bg-[#020202] relative border-t border-white/5 overflow-hidden">
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[520px] h-[520px] bg-brand-blue/[0.07] rounded-full blur-[130px] pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+<div class="max-w-3xl mx-auto mb-10 md:mb-12 reveal">
+<h2 class="font-display text-3xl md:text-5xl font-bold tracking-[-0.04em] leading-[1.02] text-white">
                     Veja como funciona na <span class="text-brand-blue">prática.</span>
-                </h2>
-
-                <p class="text-zinc-400 mt-4 text-sm md:text-lg font-light leading-relaxed">
+</h2>
+<p class="text-zinc-400 mt-4 text-sm md:text-lg font-light leading-relaxed">
                     Um relato real de quem viveu a estratégia na prática. Clique para assistir ao depoimento completo.
                 </p>
-            </div>
-
-            <div class="max-w-4xl mx-auto reveal" style="transition-delay: 100ms;">
-                <button type="button"
-                        onclick="openVideoModal()"
-                        class="relative block w-full aspect-[4/5] sm:aspect-video rounded-[28px] md:rounded-[2rem] overflow-hidden border border-white/10 shadow-[0_0_55px_rgba(37,99,235,0.13)] group bg-[#020202] cursor-pointer focus:outline-none focus:ring-2 focus:ring-brand-blue/70"
-                        aria-label="Assistir depoimento completo">
-
-                    <!-- Fundo totalmente estático -->
-                    <div class="absolute inset-0 bg-black"></div>
-                    <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.11)_0%,rgba(59,130,246,0.035)_28%,transparent_65%)]"></div>
-                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/35"></div>
-
-                    <div class="absolute inset-0 z-10 flex flex-col items-center justify-center px-6 md:px-10 text-center">
-                        <div class="relative mb-6">
-                            <div class="absolute inset-0 rounded-full bg-brand-blue blur-2xl opacity-30 scale-125 group-hover:opacity-50 transition-opacity duration-500"></div>
-                            <div class="relative w-20 h-20 md:w-24 md:h-24 rounded-full bg-brand-blue text-white flex items-center justify-center shadow-[0_0_40px_rgba(37,99,235,0.55)] border border-white/20 group-hover:scale-110 transition-transform duration-500">
-                                <i data-lucide="play" class="w-9 h-9 md:w-11 md:h-11 ml-1 fill-white text-white"></i>
-                            </div>
-                        </div>
-
-                        <p class="text-[10px] md:text-xs uppercase tracking-[0.26em] text-brand-lightBlue font-bold mb-3">
+</div>
+<div class="max-w-4xl mx-auto reveal" style="transition-delay: 100ms;">
+<button aria-label="Assistir depoimento completo" class="relative block w-full aspect-[4/5] sm:aspect-video rounded-[28px] md:rounded-[2rem] overflow-hidden border border-white/10 shadow-[0_0_55px_rgba(37,99,235,0.13)] group bg-[#020202] cursor-pointer focus:outline-none focus:ring-2 focus:ring-brand-blue/70" onclick="openVideoModal()" type="button">
+<!-- Fundo totalmente estático -->
+<div class="absolute inset-0 bg-black"></div>
+<div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(59,130,246,0.11)_0%,rgba(59,130,246,0.035)_28%,transparent_65%)]"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/35"></div>
+<div class="absolute inset-0 z-10 flex flex-col items-center justify-center px-6 md:px-10 text-center">
+<div class="relative mb-6">
+<div class="absolute inset-0 rounded-full bg-brand-blue blur-2xl opacity-30 scale-125 group-hover:opacity-50 transition-opacity duration-500"></div>
+<div class="relative w-20 h-20 md:w-24 md:h-24 rounded-full bg-brand-blue text-white flex items-center justify-center shadow-[0_0_40px_rgba(37,99,235,0.55)] border border-white/20 group-hover:scale-110 transition-transform duration-500">
+<i class="w-9 h-9 md:w-11 md:h-11 ml-1 fill-white text-white" data-lucide="play"></i>
+</div>
+</div>
+<p class="text-[10px] md:text-xs uppercase tracking-[0.26em] text-brand-lightBlue font-bold mb-3">
                             Depoimento real
                         </p>
-
-                        <h3 class="font-display text-2xl md:text-4xl font-bold text-white tracking-[-0.03em] max-w-xl leading-tight">
+<h3 class="font-display text-2xl md:text-4xl font-bold text-white tracking-[-0.03em] max-w-xl leading-tight">
                             Veja o resultado na prática
                         </h3>
-
-                        <p class="mt-3 text-zinc-400 text-sm md:text-base font-light">
+<p class="mt-3 text-zinc-400 text-sm md:text-base font-light">
                             Clique para assistir com áudio
                         </p>
-                    </div>
-
-                    <div class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-brand-blue/55 to-transparent"></div>
-                </button>
-
-                <div class="mt-10 flex flex-col items-center justify-center gap-4">
-                    <button onclick="openModal()" class="btn-padrao">
+</div>
+<div class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-brand-blue/55 to-transparent"></div>
+</button>
+<div class="mt-10 flex flex-col items-center justify-center gap-4">
+<button class="btn-padrao" onclick="openModal()">
                         Quero meu diagnóstico estratégico
-                        <i data-lucide="arrow-right" class="w-5 h-5"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 6. Sobre Mim (A Origem) -->
-    <section class="py-20 md:py-24 bg-[#020202] border-t border-white/5 relative overflow-hidden">
-        <div class="absolute top-1/2 right-0 -translate-y-1/2 w-[300px] md:w-[600px] h-[300px] md:h-[600px] bg-brand-blue/5 rounded-full blur-[80px] md:blur-[100px] pointer-events-none z-0"></div>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid lg:grid-cols-2 gap-10 md:gap-20 items-center">
-                <div class="reveal order-2 lg:order-1">
-                    <h2 class="font-display text-3xl md:text-5xl font-bold mb-6 md:mb-8 tracking-[-0.04em] leading-[1.02] text-white">O fim da dependência <br class="hidden sm:block"> de <span class="text-brand-blue">indicação.</span></h2>
-                    <div class="space-y-4 md:space-y-6 text-zinc-400 font-light text-base md:text-lg leading-relaxed">
-                        <p>
+                        <i class="w-5 h-5" data-lucide="arrow-right"></i>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. Sobre Mim (A Origem) -->
+<section class="py-20 md:py-24 bg-[#020202] border-t border-white/5 relative overflow-hidden">
+<div class="absolute top-1/2 right-0 -translate-y-1/2 w-[300px] md:w-[600px] h-[300px] md:h-[600px] bg-brand-blue/5 rounded-full blur-[80px] md:blur-[100px] pointer-events-none z-0"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="grid lg:grid-cols-2 gap-10 md:gap-20 items-center">
+<div class="reveal order-2 lg:order-1">
+<h2 class="font-display text-3xl md:text-5xl font-bold mb-6 md:mb-8 tracking-[-0.04em] leading-[1.02] text-white">O fim da dependência <br class="hidden sm:block"/> de <span class="text-brand-blue">indicação.</span></h2>
+<div class="space-y-4 md:space-y-6 text-zinc-400 font-light text-base md:text-lg leading-relaxed">
+<p>
                             Muito prazer, sou Matheus Galhardi, criador do <strong class="text-white font-medium">Método Growth Scale</strong>. Ele nasceu não com base em teorias, mas sim na frustração de ver excelentes empresas reféns do boca a boca, sem saber de onde viria o próximo cliente.
                         </p>
-                        <p>
+<p>
                             Depois de testar e validar operações reais na prática, ficou evidente: se tráfego resolvesse sozinho, todo mundo que anuncia estaria crescendo. Mas não está. <strong class="text-white font-medium">O problema nunca foi apenas atrair cliques.</strong>
-                        </p>
-                        <p>
+</p>
+<p>
                             O problema é a falta de um ecossistema que transforma a atenção certa em uma venda previsível. O Growth Scale nasceu para ser exatamente isso: a engenharia que substitui a "esperança" da indicação por mais controle sobre a geração de oportunidades e o crescimento comercial.
                         </p>
-                        
-                        <div class="py-1 mt-4 md:mt-6 border-l-2 border-brand-blue/30 pl-4 md:border-none md:pl-0">
-                            <p class="font-display text-white font-medium text-lg md:text-xl tracking-tight leading-snug">
-                                O foco nunca foi parecer bom. <br class="hidden sm:block"><span class="text-brand-lightBlue">Sempre foi construir um negócio que escala de verdade.</span>
-                            </p>
-                        </div>
-                        
-                        <!-- Secção de Métricas com Animadores Ativos -->
-                        <div class="grid grid-cols-2 gap-6 mt-8 pt-8 border-t border-white/5">
-                            <div>
-                                <div class="flex items-baseline gap-1">
-                                    <span class="text-brand-blue text-2xl md:text-3xl font-bold">+</span>
-                                    <span class="counter-value font-display text-3xl md:text-4xl font-bold text-white tracking-tighter" data-target="300">0</span>
-                                    <span class="text-white text-xl md:text-2xl font-bold">mil</span>
-                                </div>
-                                <p class="text-[11px] text-zinc-500 uppercase tracking-[0.22em] mt-1 font-bold">Gerados na prática</p>
-                            </div>
-                            <div>
-                                <div class="flex items-baseline gap-1">
-                                    <span class="text-brand-blue text-2xl md:text-3xl font-bold">+</span>
-                                    <span class="counter-value font-display text-3xl md:text-4xl font-bold text-white tracking-tighter" data-target="50">0</span>
-                                </div>
-                                <p class="text-[11px] text-zinc-500 uppercase tracking-[0.22em] mt-1 font-bold">Operações otimizadas</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reveal relative order-1 lg:order-2 mb-8 lg:mb-0" style="transition-delay: 200ms;">
-                    <div class="glass-card rounded-[2rem] md:rounded-3xl p-2 relative overflow-hidden shadow-[0_0_40px_rgba(37,99,235,0.15)]">
-                        <img src="imagens/final.png" loading="lazy" alt="Matheus Galhardi" class="w-full h-auto object-cover rounded-3xl md:rounded-2xl aspect-square lg:aspect-[4/5] filter contrast-105">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 7. Método (A Engenharia) -->
-    <section class="py-24 md:py-32 pb-32 md:pb-40 bg-[#020202] border-t border-white/5 relative overflow-hidden">
-        <div class="absolute top-0 right-0 w-[400px] md:w-[800px] h-[400px] md:h-[800px] bg-brand-blue/5 rounded-full blur-[80px] md:blur-[150px] pointer-events-none mix-blend-screen opacity-50"></div>
-        <div class="absolute bottom-0 left-0 w-[300px] md:w-[600px] h-[300px] md:h-[600px] bg-brand-blue/5 rounded-full blur-[80px] md:blur-[120px] pointer-events-none mix-blend-screen opacity-50"></div>
-        
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="text-center mb-16 md:mb-24 reveal">
-                <h2 class="font-display text-3xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 tracking-[-0.04em] leading-[1.02] text-white">A Engenharia do <br class="hidden sm:block"><span class="text-brand-blue">Método Growth Scale</span></h2>
-                <p class="text-zinc-400 max-w-2xl mx-auto text-base md:text-lg font-light px-2">Como substituímos a esperança da indicação por um ecossistema de vendas previsível. Sem atalhos, apenas execução tática em 4 pilares.</p>
-            </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6 lg:gap-8 relative pb-10">
-                <div class="glass-card rounded-[2rem] p-6 md:p-8 relative overflow-hidden group hover:-translate-y-2 transition-all duration-500 border border-white/5 bg-[#070709] lg:mt-24 shadow-lg hover:shadow-[0_10px_40px_rgba(37,99,235,0.1)] reveal">
-                    <div class="font-display absolute -right-4 md:-right-6 -top-4 md:-top-6 text-[100px] md:text-[140px] font-extrabold text-white/[0.02] leading-none select-none pointer-events-none group-hover:text-brand-blue/[0.05] transition-colors duration-500">1</div>
-                    <div class="w-12 h-12 md:w-14 md:h-14 rounded-2xl bg-[#020202] border border-white/10 flex items-center justify-center mb-6 md:mb-8 shadow-inner relative z-10 group-hover:border-brand-blue/30 transition-colors">
-                        <i data-lucide="layers" class="w-5 h-5 md:w-6 md:h-6 text-brand-blue"></i>
-                    </div>
-                    <h3 class="font-display text-xl md:text-2xl font-bold text-white mb-3 md:mb-4 relative z-10">A Base</h3>
-                    <p class="text-zinc-400 font-light text-xs md:text-sm leading-relaxed mb-4 relative z-10">Não adianta injetar dinheiro em estrutura furada. Arrumamos a casa e criamos uma oferta irresistível.</p>
-                </div>
-
-                <div class="glass-card rounded-[2rem] p-6 md:p-8 relative overflow-hidden group hover:-translate-y-2 transition-all duration-500 border border-white/5 bg-[#070709] lg:mt-16 shadow-lg hover:shadow-[0_10px_40px_rgba(37,99,235,0.1)] reveal" style="transition-delay: 100ms;">
-                    <div class="font-display absolute -right-4 md:-right-6 -top-4 md:-top-6 text-[100px] md:text-[140px] font-extrabold text-white/[0.02] leading-none select-none pointer-events-none group-hover:text-brand-blue/[0.05] transition-colors duration-500">2</div>
-                    <div class="w-12 h-12 md:w-14 md:h-14 rounded-2xl bg-black border border-white/10 flex items-center justify-center mb-6 md:mb-8 shadow-inner relative z-10 group-hover:border-brand-blue/30 transition-colors">
-                        <i data-lucide="magnet" class="w-5 h-5 md:w-6 md:h-6 text-brand-blue"></i>
-                    </div>
-                    <h3 class="font-display text-xl md:text-2xl font-bold text-white mb-3 md:mb-4 relative z-10">Tração</h3>
-                    <p class="text-zinc-400 font-light text-xs md:text-sm leading-relaxed mb-4 relative z-10">Hora de ligar os motores. Campanhas orientadas por dados para atrair pessoas com intenção e perfil real de compra.</p>
-                </div>
-
-                <div class="glass-card rounded-[2rem] p-6 md:p-8 relative overflow-hidden group hover:-translate-y-2 transition-all duration-500 border border-white/5 bg-[#070709] lg:mt-8 shadow-lg hover:shadow-[0_10px_40px_rgba(37,99,235,0.1)] reveal" style="transition-delay: 200ms;">
-                    <div class="font-display absolute -right-4 md:-right-6 -top-4 md:-top-6 text-[100px] md:text-[140px] font-extrabold text-white/[0.02] leading-none select-none pointer-events-none group-hover:text-brand-blue/[0.05] transition-colors duration-500">3</div>
-                    <div class="w-12 h-12 md:w-14 md:h-14 rounded-2xl bg-black border border-white/10 flex items-center justify-center mb-6 md:mb-8 shadow-inner relative z-10 group-hover:border-brand-blue/30 transition-colors">
-                        <i data-lucide="message-circle" class="w-5 h-5 md:w-6 md:h-6 text-brand-blue"></i>
-                    </div>
-                    <h3 class="font-display text-xl md:text-2xl font-bold text-white mb-3 md:mb-4 relative z-10">Fechamento</h3>
-                    <p class="text-zinc-400 font-light text-xs md:text-sm leading-relaxed mb-4 relative z-10">O lead chegou, e agora? Lapidamos o processo comercial para garantir que o time não perca venda ganha.</p>
-                </div>
-
-                <div class="glass-card rounded-[2rem] p-6 md:p-8 relative overflow-hidden group hover:-translate-y-2 transition-all duration-500 border border-brand-blue/30 bg-[#0a0f1c] lg:mt-0 shadow-[0_0_40px_rgba(37,99,235,0.15)] hover:shadow-[0_10px_50px_rgba(37,99,235,0.25)] reveal" style="transition-delay: 300ms;">
-                    <div class="absolute inset-0 bg-gradient-to-br from-brand-blue/20 to-transparent opacity-50 pointer-events-none"></div>
-                    <div class="font-display absolute -right-4 md:-right-6 -top-4 md:-top-6 text-[100px] md:text-[140px] font-extrabold text-brand-blue/[0.08] leading-none select-none pointer-events-none group-hover:text-brand-blue/[0.12] transition-colors duration-500">4</div>
-                    <div class="w-12 h-12 md:w-14 md:h-14 rounded-2xl bg-brand-blue flex items-center justify-center mb-6 md:mb-8 shadow-[0_0_20px_rgba(37,99,235,0.5)] relative z-10">
-                        <i data-lucide="rocket" class="w-5 h-5 md:w-6 md:h-6 text-white"></i>
-                    </div>
-                    <h3 class="font-display text-xl md:text-2xl font-bold text-white mb-3 md:mb-4 relative z-10">A Escala</h3>
-                    <p class="text-zinc-300 font-light text-xs md:text-sm leading-relaxed mb-4 relative z-10">Validamos o funil? Então aceleramos com critério. É aqui que ampliamos o investimento com base em dados, capacidade operacional e retorno.</p>
-                    <div class="pt-4 mt-4 border-t border-brand-blue/20 relative z-10">
-                        <ul class="space-y-2 md:space-y-3 text-[11px] md:text-xs text-zinc-300 font-medium">
-                            <li class="flex gap-2 items-start"><i data-lucide="check" class="w-3.5 h-3.5 text-brand-lightBlue shrink-0"></i> Aumento de Orçamento</li>
-                            <li class="flex gap-2 items-start"><i data-lucide="check" class="w-3.5 h-3.5 text-brand-lightBlue shrink-0"></i> Maximização do LTV</li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- 8. Qualificação (Design Editorial Simplificado) -->
-    <section class="py-24 md:py-32 relative overflow-hidden bg-[#020202] border-t border-white/5">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 reveal">
-            <!-- Topo: Cabeçalho Limpo -->
-            <div class="text-center mb-16 md:mb-24">
-                <h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-bold mb-6 tracking-[-0.04em] leading-[1.05] text-white">
+<div class="py-1 mt-4 md:mt-6 border-l-2 border-brand-blue/30 pl-4 md:border-none md:pl-0">
+<p class="font-display text-white font-medium text-lg md:text-xl tracking-tight leading-snug">
+                                O foco nunca foi parecer bom. <br class="hidden sm:block"/><span class="text-brand-lightBlue">Sempre foi construir um negócio que escala de verdade.</span>
+</p>
+</div>
+<!-- Secção de Métricas com Animadores Ativos -->
+<div class="grid grid-cols-2 gap-6 mt-8 pt-8 border-t border-white/5">
+<div>
+<div class="flex items-baseline gap-1">
+<span class="text-brand-blue text-2xl md:text-3xl font-bold">+</span>
+<span class="counter-value font-display text-3xl md:text-4xl font-bold text-white tracking-tighter" data-target="300">0</span>
+<span class="text-white text-xl md:text-2xl font-bold">mil</span>
+</div>
+<p class="text-[11px] text-zinc-500 uppercase tracking-[0.22em] mt-1 font-bold">Gerados na prática</p>
+</div>
+<div>
+<div class="flex items-baseline gap-1">
+<span class="text-brand-blue text-2xl md:text-3xl font-bold">+</span>
+<span class="counter-value font-display text-3xl md:text-4xl font-bold text-white tracking-tighter" data-target="50">0</span>
+</div>
+<p class="text-[11px] text-zinc-500 uppercase tracking-[0.22em] mt-1 font-bold">Operações otimizadas</p>
+</div>
+</div>
+</div>
+</div>
+<div class="reveal relative order-1 lg:order-2 mb-8 lg:mb-0" style="transition-delay: 200ms;">
+<div class="glass-card rounded-[2rem] md:rounded-3xl p-2 relative overflow-hidden shadow-[0_0_40px_rgba(37,99,235,0.15)]">
+<img alt="Matheus Galhardi" class="w-full h-auto object-cover rounded-3xl md:rounded-2xl aspect-square lg:aspect-[4/5] filter contrast-105" loading="lazy" src="imagens/final.png"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. Método (A Engenharia) -->
+<section class="py-24 md:py-32 pb-32 md:pb-40 bg-[#020202] border-t border-white/5 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-[400px] md:w-[800px] h-[400px] md:h-[800px] bg-brand-blue/5 rounded-full blur-[80px] md:blur-[150px] pointer-events-none mix-blend-screen opacity-50"></div>
+<div class="absolute bottom-0 left-0 w-[300px] md:w-[600px] h-[300px] md:h-[600px] bg-brand-blue/5 rounded-full blur-[80px] md:blur-[120px] pointer-events-none mix-blend-screen opacity-50"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="text-center mb-16 md:mb-24 reveal">
+<h2 class="font-display text-3xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 tracking-[-0.04em] leading-[1.02] text-white">A Engenharia do <br class="hidden sm:block"/><span class="text-brand-blue">Método Growth Scale</span></h2>
+<p class="text-zinc-400 max-w-2xl mx-auto text-base md:text-lg font-light px-2">Como substituímos a esperança da indicação por um ecossistema de vendas previsível. Sem atalhos, apenas execução tática em 4 pilares.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6 lg:gap-8 relative pb-10">
+<div class="glass-card rounded-[2rem] p-6 md:p-8 relative overflow-hidden group hover:-translate-y-2 transition-all duration-500 border border-white/5 bg-[#070709] lg:mt-24 shadow-lg hover:shadow-[0_10px_40px_rgba(37,99,235,0.1)] reveal">
+<div class="font-display absolute -right-4 md:-right-6 -top-4 md:-top-6 text-[100px] md:text-[140px] font-extrabold text-white/[0.02] leading-none select-none pointer-events-none group-hover:text-brand-blue/[0.05] transition-colors duration-500">1</div>
+<div class="w-12 h-12 md:w-14 md:h-14 rounded-2xl bg-[#020202] border border-white/10 flex items-center justify-center mb-6 md:mb-8 shadow-inner relative z-10 group-hover:border-brand-blue/30 transition-colors">
+<i class="w-5 h-5 md:w-6 md:h-6 text-brand-blue" data-lucide="layers"></i>
+</div>
+<h3 class="font-display text-xl md:text-2xl font-bold text-white mb-3 md:mb-4 relative z-10">A Base</h3>
+<p class="text-zinc-400 font-light text-xs md:text-sm leading-relaxed mb-4 relative z-10">Não adianta injetar dinheiro em estrutura furada. Arrumamos a casa e criamos uma oferta irresistível.</p>
+</div>
+<div class="glass-card rounded-[2rem] p-6 md:p-8 relative overflow-hidden group hover:-translate-y-2 transition-all duration-500 border border-white/5 bg-[#070709] lg:mt-16 shadow-lg hover:shadow-[0_10px_40px_rgba(37,99,235,0.1)] reveal" style="transition-delay: 100ms;">
+<div class="font-display absolute -right-4 md:-right-6 -top-4 md:-top-6 text-[100px] md:text-[140px] font-extrabold text-white/[0.02] leading-none select-none pointer-events-none group-hover:text-brand-blue/[0.05] transition-colors duration-500">2</div>
+<div class="w-12 h-12 md:w-14 md:h-14 rounded-2xl bg-black border border-white/10 flex items-center justify-center mb-6 md:mb-8 shadow-inner relative z-10 group-hover:border-brand-blue/30 transition-colors">
+<i class="w-5 h-5 md:w-6 md:h-6 text-brand-blue" data-lucide="magnet"></i>
+</div>
+<h3 class="font-display text-xl md:text-2xl font-bold text-white mb-3 md:mb-4 relative z-10">Tração</h3>
+<p class="text-zinc-400 font-light text-xs md:text-sm leading-relaxed mb-4 relative z-10">Hora de ligar os motores. Campanhas orientadas por dados para atrair pessoas com intenção e perfil real de compra.</p>
+</div>
+<div class="glass-card rounded-[2rem] p-6 md:p-8 relative overflow-hidden group hover:-translate-y-2 transition-all duration-500 border border-white/5 bg-[#070709] lg:mt-8 shadow-lg hover:shadow-[0_10px_40px_rgba(37,99,235,0.1)] reveal" style="transition-delay: 200ms;">
+<div class="font-display absolute -right-4 md:-right-6 -top-4 md:-top-6 text-[100px] md:text-[140px] font-extrabold text-white/[0.02] leading-none select-none pointer-events-none group-hover:text-brand-blue/[0.05] transition-colors duration-500">3</div>
+<div class="w-12 h-12 md:w-14 md:h-14 rounded-2xl bg-black border border-white/10 flex items-center justify-center mb-6 md:mb-8 shadow-inner relative z-10 group-hover:border-brand-blue/30 transition-colors">
+<i class="w-5 h-5 md:w-6 md:h-6 text-brand-blue" data-lucide="message-circle"></i>
+</div>
+<h3 class="font-display text-xl md:text-2xl font-bold text-white mb-3 md:mb-4 relative z-10">Fechamento</h3>
+<p class="text-zinc-400 font-light text-xs md:text-sm leading-relaxed mb-4 relative z-10">O lead chegou, e agora? Lapidamos o processo comercial para garantir que o time não perca venda ganha.</p>
+</div>
+<div class="glass-card rounded-[2rem] p-6 md:p-8 relative overflow-hidden group hover:-translate-y-2 transition-all duration-500 border border-brand-blue/30 bg-[#0a0f1c] lg:mt-0 shadow-[0_0_40px_rgba(37,99,235,0.15)] hover:shadow-[0_10px_50px_rgba(37,99,235,0.25)] reveal" style="transition-delay: 300ms;">
+<div class="absolute inset-0 bg-gradient-to-br from-brand-blue/20 to-transparent opacity-50 pointer-events-none"></div>
+<div class="font-display absolute -right-4 md:-right-6 -top-4 md:-top-6 text-[100px] md:text-[140px] font-extrabold text-brand-blue/[0.08] leading-none select-none pointer-events-none group-hover:text-brand-blue/[0.12] transition-colors duration-500">4</div>
+<div class="w-12 h-12 md:w-14 md:h-14 rounded-2xl bg-brand-blue flex items-center justify-center mb-6 md:mb-8 shadow-[0_0_20px_rgba(37,99,235,0.5)] relative z-10">
+<i class="w-5 h-5 md:w-6 md:h-6 text-white" data-lucide="rocket"></i>
+</div>
+<h3 class="font-display text-xl md:text-2xl font-bold text-white mb-3 md:mb-4 relative z-10">A Escala</h3>
+<p class="text-zinc-300 font-light text-xs md:text-sm leading-relaxed mb-4 relative z-10">Validamos o funil? Então aceleramos com critério. É aqui que ampliamos o investimento com base em dados, capacidade operacional e retorno.</p>
+<div class="pt-4 mt-4 border-t border-brand-blue/20 relative z-10">
+<ul class="space-y-2 md:space-y-3 text-[11px] md:text-xs text-zinc-300 font-medium">
+<li class="flex gap-2 items-start"><i class="w-3.5 h-3.5 text-brand-lightBlue shrink-0" data-lucide="check"></i> Aumento de Orçamento</li>
+<li class="flex gap-2 items-start"><i class="w-3.5 h-3.5 text-brand-lightBlue shrink-0" data-lucide="check"></i> Maximização do LTV</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. Qualificação (Design Editorial Simplificado) -->
+<section class="py-24 md:py-32 relative overflow-hidden bg-[#020202] border-t border-white/5">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 reveal">
+<!-- Topo: Cabeçalho Limpo -->
+<div class="text-center mb-16 md:mb-24">
+<h2 class="font-display text-3xl sm:text-4xl md:text-5xl font-bold mb-6 tracking-[-0.04em] leading-[1.05] text-white">
                     Aplicação <span class="text-brand-blue">Prática.</span>
-                </h2>
-                <p class="text-zinc-400 text-base md:text-lg font-light max-w-2xl mx-auto leading-relaxed">
+</h2>
+<p class="text-zinc-400 text-base md:text-lg font-light max-w-2xl mx-auto leading-relaxed">
                     Durante o Diagnóstico Estratégico via Meet, vou analisar a sua operação inteira sob a ótica da nossa engenharia de 4 pilares.
                 </p>
-            </div>
-
-            <!-- Meio: Grid Editorial Premium -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-y-14 gap-x-12 md:gap-x-24 mb-16 md:mb-20">
-                
-                <!-- Item 1: Aquisição -->
-                <div class="group relative pl-5 md:pl-7">
-                    <!-- Linha vertical gradiente -->
-                    <div class="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-brand-blue/55 via-brand-blue/15 to-transparent group-hover:from-brand-blue group-hover:via-brand-blue/30 transition-all duration-700 ease-out"></div>
-                    
-                    <div class="relative z-10">
-                        <h3 class="font-display text-2xl md:text-3xl font-bold text-white mb-2">Aquisição</h3>
-                        <p class="text-brand-lightBlue font-medium text-[16px] md:text-[17px] mb-3 leading-snug">Você atrai quem realmente pode pagar?</p>
-                        <p class="text-zinc-400 text-[14px] md:text-[15px] font-light leading-relaxed">Analisamos seus canais de tráfego para focar os investimentos apenas em leads com alta intenção de compra.</p>
-                    </div>
-                </div>
-
-                <!-- Item 2: Conversão -->
-                <div class="group relative pl-5 md:pl-7">
-                    <div class="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-brand-blue/55 via-brand-blue/15 to-transparent group-hover:from-brand-blue group-hover:via-brand-blue/30 transition-all duration-700 ease-out"></div>
-                    
-                    <div class="relative z-10">
-                        <h3 class="font-display text-2xl md:text-3xl font-bold text-white mb-2">Conversão</h3>
-                        <p class="text-brand-lightBlue font-medium text-[16px] md:text-[17px] mb-3 leading-snug">Seu time perde vendas fáceis?</p>
-                        <p class="text-zinc-400 text-[14px] md:text-[15px] font-light leading-relaxed">Mapeamos o seu funil comercial para tapar os buracos de atendimento onde o seu dinheiro está vazando.</p>
-                    </div>
-                </div>
-
-                <!-- Item 3: Operação -->
-                <div class="group relative pl-5 md:pl-7">
-                    <div class="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-brand-blue/55 via-brand-blue/15 to-transparent group-hover:from-brand-blue group-hover:via-brand-blue/30 transition-all duration-700 ease-out"></div>
-                    
-                    <div class="relative z-10">
-                        <h3 class="font-display text-2xl md:text-3xl font-bold text-white mb-2">Operação</h3>
-                        <p class="text-brand-lightBlue font-medium text-[16px] md:text-[17px] mb-3 leading-snug">Sua estrutura aguenta o dobro de clientes?</p>
-                        <p class="text-zinc-400 text-[14px] md:text-[15px] font-light leading-relaxed">Avaliamos se o seu processo de entrega e atendimento escala sem quebrar a qualidade ou a sua rotina.</p>
-                    </div>
-                </div>
-
-                <!-- Item 4: Previsibilidade -->
-                <div class="group relative pl-5 md:pl-7">
-                    <div class="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-brand-blue/55 via-brand-blue/15 to-transparent group-hover:from-brand-blue group-hover:via-brand-blue/30 transition-all duration-700 ease-out"></div>
-                    
-                    <div class="relative z-10">
-                        <h3 class="font-display text-2xl md:text-3xl font-bold text-white mb-2">Previsibilidade</h3>
-                        <p class="text-brand-lightBlue font-medium text-[16px] md:text-[17px] mb-3 leading-snug">O próximo mês é uma incógnita?</p>
-                        <p class="text-zinc-400 text-[14px] md:text-[15px] font-light leading-relaxed">Desenhamos o caminho para que o seu caixa tenha previsibilidade e não dependa de sorte ou apenas indicações.</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Base: Fechamento Limpo -->
-            <div class="max-w-3xl mx-auto text-center border-t border-white/5 pt-12 md:pt-16">
-                <p class="font-display text-xl md:text-2xl font-medium text-white mb-8 leading-snug">
+</div>
+<!-- Meio: Grid Editorial Premium -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-y-14 gap-x-12 md:gap-x-24 mb-16 md:mb-20">
+<!-- Item 1: Aquisição -->
+<div class="group relative pl-5 md:pl-7">
+<!-- Linha vertical gradiente -->
+<div class="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-brand-blue/55 via-brand-blue/15 to-transparent group-hover:from-brand-blue group-hover:via-brand-blue/30 transition-all duration-700 ease-out"></div>
+<div class="relative z-10">
+<h3 class="font-display text-2xl md:text-3xl font-bold text-white mb-2">Aquisição</h3>
+<p class="text-brand-lightBlue font-medium text-[16px] md:text-[17px] mb-3 leading-snug">Você atrai quem realmente pode pagar?</p>
+<p class="text-zinc-400 text-[14px] md:text-[15px] font-light leading-relaxed">Analisamos seus canais de tráfego para focar os investimentos apenas em leads com alta intenção de compra.</p>
+</div>
+</div>
+<!-- Item 2: Conversão -->
+<div class="group relative pl-5 md:pl-7">
+<div class="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-brand-blue/55 via-brand-blue/15 to-transparent group-hover:from-brand-blue group-hover:via-brand-blue/30 transition-all duration-700 ease-out"></div>
+<div class="relative z-10">
+<h3 class="font-display text-2xl md:text-3xl font-bold text-white mb-2">Conversão</h3>
+<p class="text-brand-lightBlue font-medium text-[16px] md:text-[17px] mb-3 leading-snug">Seu time perde vendas fáceis?</p>
+<p class="text-zinc-400 text-[14px] md:text-[15px] font-light leading-relaxed">Mapeamos o seu funil comercial para tapar os buracos de atendimento onde o seu dinheiro está vazando.</p>
+</div>
+</div>
+<!-- Item 3: Operação -->
+<div class="group relative pl-5 md:pl-7">
+<div class="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-brand-blue/55 via-brand-blue/15 to-transparent group-hover:from-brand-blue group-hover:via-brand-blue/30 transition-all duration-700 ease-out"></div>
+<div class="relative z-10">
+<h3 class="font-display text-2xl md:text-3xl font-bold text-white mb-2">Operação</h3>
+<p class="text-brand-lightBlue font-medium text-[16px] md:text-[17px] mb-3 leading-snug">Sua estrutura aguenta o dobro de clientes?</p>
+<p class="text-zinc-400 text-[14px] md:text-[15px] font-light leading-relaxed">Avaliamos se o seu processo de entrega e atendimento escala sem quebrar a qualidade ou a sua rotina.</p>
+</div>
+</div>
+<!-- Item 4: Previsibilidade -->
+<div class="group relative pl-5 md:pl-7">
+<div class="absolute left-0 top-0 bottom-0 w-px bg-gradient-to-b from-brand-blue/55 via-brand-blue/15 to-transparent group-hover:from-brand-blue group-hover:via-brand-blue/30 transition-all duration-700 ease-out"></div>
+<div class="relative z-10">
+<h3 class="font-display text-2xl md:text-3xl font-bold text-white mb-2">Previsibilidade</h3>
+<p class="text-brand-lightBlue font-medium text-[16px] md:text-[17px] mb-3 leading-snug">O próximo mês é uma incógnita?</p>
+<p class="text-zinc-400 text-[14px] md:text-[15px] font-light leading-relaxed">Desenhamos o caminho para que o seu caixa tenha previsibilidade e não dependa de sorte ou apenas indicações.</p>
+</div>
+</div>
+</div>
+<!-- Base: Fechamento Limpo -->
+<div class="max-w-3xl mx-auto text-center border-t border-white/5 pt-12 md:pt-16">
+<p class="font-display text-xl md:text-2xl font-medium text-white mb-8 leading-snug">
                     O diagnóstico revela qual pilar está limitando o crescimento do seu negócio hoje.
                 </p>
-                <div class="flex justify-center">
-                    <button onclick="openModal()" class="btn-padrao w-full sm:w-auto">
+<div class="flex justify-center">
+<button class="btn-padrao w-full sm:w-auto" onclick="openModal()">
                         Quero meu diagnóstico estratégico
                     </button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 9. FAQ -->
-    <section class="py-24 md:py-32 bg-[#020202] border-t border-white/5 relative overflow-hidden">
-        <!-- Fundo Padronizado -->
-        <div class="absolute top-0 right-0 md:right-1/4 w-[300px] md:w-[600px] h-[300px] md:h-[600px] bg-brand-blue/5 rounded-full blur-[80px] md:blur-[150px] pointer-events-none mix-blend-screen opacity-50"></div>
-        
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="text-center mb-12 md:mb-16 reveal">
-                <h2 class="font-display text-3xl md:text-5xl font-bold mb-4 md:mb-6 tracking-[-0.04em] leading-[1.02] text-white">Ficou alguma <span class="text-brand-blue">dúvida?</span></h2>
-                <p class="text-zinc-400 text-base md:text-lg font-light px-2">As respostas para as perguntas mais comuns antes de darmos o próximo passo.</p>
-            </div>
-
-            <div class="space-y-4 md:space-y-5 reveal" style="transition-delay: 100ms;">
-                <div class="bg-[#050505] border border-white/5 rounded-2xl overflow-hidden transition-all hover:border-brand-blue/30 group hover:shadow-[0_0_20px_rgba(59,130,246,0.05)]">
-                    <button onclick="toggleFaq(this)" aria-expanded="false" class="w-full text-left px-6 py-6 md:px-8 md:py-7 flex justify-between items-center focus:outline-none">
-                        <span class="text-base md:text-xl font-bold text-white/90 group-hover:text-white transition-colors pr-4 leading-snug">O Método Growth Scale serve para o meu negócio?</span>
-                        <i data-lucide="plus" class="faq-icon w-5 h-5 md:w-6 md:h-6 text-brand-blue transition-transform duration-500 shrink-0"></i>
-                    </button>
-                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-apple bg-black/40">
-                        <p class="px-6 pb-6 md:px-8 md:pb-8 text-zinc-400 text-sm md:text-base font-light leading-relaxed border-t border-white/5 pt-4">
+</div>
+</div>
+</div>
+</section>
+<!-- 9. FAQ -->
+<section class="py-24 md:py-32 bg-[#020202] border-t border-white/5 relative overflow-hidden">
+<!-- Fundo Padronizado -->
+<div class="absolute top-0 right-0 md:right-1/4 w-[300px] md:w-[600px] h-[300px] md:h-[600px] bg-brand-blue/5 rounded-full blur-[80px] md:blur-[150px] pointer-events-none mix-blend-screen opacity-50"></div>
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="text-center mb-12 md:mb-16 reveal">
+<h2 class="font-display text-3xl md:text-5xl font-bold mb-4 md:mb-6 tracking-[-0.04em] leading-[1.02] text-white">Ficou alguma <span class="text-brand-blue">dúvida?</span></h2>
+<p class="text-zinc-400 text-base md:text-lg font-light px-2">As respostas para as perguntas mais comuns antes de darmos o próximo passo.</p>
+</div>
+<div class="space-y-4 md:space-y-5 reveal" style="transition-delay: 100ms;">
+<div class="bg-[#050505] border border-white/5 rounded-2xl overflow-hidden transition-all hover:border-brand-blue/30 group hover:shadow-[0_0_20px_rgba(59,130,246,0.05)]">
+<button aria-expanded="false" class="w-full text-left px-6 py-6 md:px-8 md:py-7 flex justify-between items-center focus:outline-none" onclick="toggleFaq(this)">
+<span class="text-base md:text-xl font-bold text-white/90 group-hover:text-white transition-colors pr-4 leading-snug">O Método Growth Scale serve para o meu negócio?</span>
+<i class="faq-icon w-5 h-5 md:w-6 md:h-6 text-brand-blue transition-transform duration-500 shrink-0" data-lucide="plus"></i>
+</button>
+<div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-apple bg-black/40">
+<p class="px-6 pb-6 md:px-8 md:pb-8 text-zinc-400 text-sm md:text-base font-light leading-relaxed border-t border-white/5 pt-4">
                             O método foi desenhado para empresas que já têm um modelo de negócio validado, margem de lucro e equipe de vendas, mas que dependem de indicações ou estão com as vendas estagnadas. Se tem capacidade para atender mais clientes e quer previsibilidade de escala, o método é para você.
                         </p>
-                    </div>
-                </div>
-
-                <div class="bg-[#050505] border border-white/5 rounded-2xl overflow-hidden transition-all hover:border-brand-blue/30 group hover:shadow-[0_0_20px_rgba(59,130,246,0.05)]">
-                    <button onclick="toggleFaq(this)" aria-expanded="false" class="w-full text-left px-6 py-6 md:px-8 md:py-7 flex justify-between items-center focus:outline-none">
-                        <span class="text-base md:text-xl font-bold text-white/90 group-hover:text-white transition-colors pr-4 leading-snug">Qual é o investimento mínimo em anúncios?</span>
-                        <i data-lucide="plus" class="faq-icon w-5 h-5 md:w-6 md:h-6 text-brand-blue transition-transform duration-500 shrink-0"></i>
-                    </button>
-                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-apple bg-black/40">
-                        <p class="px-6 pb-6 md:px-8 md:pb-8 text-zinc-400 text-sm md:text-base font-light leading-relaxed border-t border-white/5 pt-4">
+</div>
+</div>
+<div class="bg-[#050505] border border-white/5 rounded-2xl overflow-hidden transition-all hover:border-brand-blue/30 group hover:shadow-[0_0_20px_rgba(59,130,246,0.05)]">
+<button aria-expanded="false" class="w-full text-left px-6 py-6 md:px-8 md:py-7 flex justify-between items-center focus:outline-none" onclick="toggleFaq(this)">
+<span class="text-base md:text-xl font-bold text-white/90 group-hover:text-white transition-colors pr-4 leading-snug">Qual é o investimento mínimo em anúncios?</span>
+<i class="faq-icon w-5 h-5 md:w-6 md:h-6 text-brand-blue transition-transform duration-500 shrink-0" data-lucide="plus"></i>
+</button>
+<div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-apple bg-black/40">
+<p class="px-6 pb-6 md:px-8 md:pb-8 text-zinc-400 text-sm md:text-base font-light leading-relaxed border-t border-white/5 pt-4">
                             Para que a estratégia ganhe tração e a inteligência das plataformas (Meta/Google) consiga otimizar, recomendamos um orçamento mínimo de R$ 1.500 a R$ 3.000 mensais destinados exclusivamente aos anúncios. Menos do que isto limita drasticamente a nossa capacidade de gerar volume.
                         </p>
-                    </div>
-                </div>
-
-                <div class="bg-[#050505] border border-white/5 rounded-2xl overflow-hidden transition-all hover:border-brand-blue/30 group hover:shadow-[0_0_20px_rgba(59,130,246,0.05)]">
-                    <button onclick="toggleFaq(this)" aria-expanded="false" class="w-full text-left px-6 py-6 md:px-8 md:py-7 flex justify-between items-center focus:outline-none">
-                        <span class="text-base md:text-xl font-bold text-white/90 group-hover:text-white transition-colors pr-4 leading-snug">Vocês criam as artes e os vídeos das campanhas?</span>
-                        <i data-lucide="plus" class="faq-icon w-5 h-5 md:w-6 md:h-6 text-brand-blue transition-transform duration-500 shrink-0"></i>
-                    </button>
-                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-apple bg-black/40">
-                        <p class="px-6 pb-6 md:px-8 md:pb-8 text-zinc-400 text-sm md:text-base font-light leading-relaxed border-t border-white/5 pt-4">
+</div>
+</div>
+<div class="bg-[#050505] border border-white/5 rounded-2xl overflow-hidden transition-all hover:border-brand-blue/30 group hover:shadow-[0_0_20px_rgba(59,130,246,0.05)]">
+<button aria-expanded="false" class="w-full text-left px-6 py-6 md:px-8 md:py-7 flex justify-between items-center focus:outline-none" onclick="toggleFaq(this)">
+<span class="text-base md:text-xl font-bold text-white/90 group-hover:text-white transition-colors pr-4 leading-snug">Vocês criam as artes e os vídeos das campanhas?</span>
+<i class="faq-icon w-5 h-5 md:w-6 md:h-6 text-brand-blue transition-transform duration-500 shrink-0" data-lucide="plus"></i>
+</button>
+<div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-apple bg-black/40">
+<p class="px-6 pb-6 md:px-8 md:pb-8 text-zinc-400 text-sm md:text-base font-light leading-relaxed border-t border-white/5 pt-4">
                             Não. A nossa assessoria funciona como o "cérebro estratégico". Nós enviamos referências estruturadas, ângulos de marketing e roteiros altamente conversivos para você. A execução (gravação e edição) fica com a sua equipe, para garantir que o seu especialista em design ou vídeo mantém a essência da sua marca.
                         </p>
-                    </div>
-                </div>
-
-                <div class="bg-[#050505] border border-white/5 rounded-2xl overflow-hidden transition-all hover:border-brand-blue/30 group hover:shadow-[0_0_20px_rgba(59,130,246,0.05)]">
-                    <button onclick="toggleFaq(this)" aria-expanded="false" class="w-full text-left px-6 py-6 md:px-8 md:py-7 flex justify-between items-center focus:outline-none">
-                        <span class="text-base md:text-xl font-bold text-white/90 group-hover:text-white transition-colors pr-4 leading-snug">Em quanto tempo começo a ver resultados no caixa?</span>
-                        <i data-lucide="plus" class="faq-icon w-5 h-5 md:w-6 md:h-6 text-brand-blue transition-transform duration-500 shrink-0"></i>
-                    </button>
-                    <div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-apple bg-black/40">
-                        <p class="px-6 pb-6 md:px-8 md:pb-8 text-zinc-400 text-sm md:text-base font-light leading-relaxed border-t border-white/5 pt-4">
+</div>
+</div>
+<div class="bg-[#050505] border border-white/5 rounded-2xl overflow-hidden transition-all hover:border-brand-blue/30 group hover:shadow-[0_0_20px_rgba(59,130,246,0.05)]">
+<button aria-expanded="false" class="w-full text-left px-6 py-6 md:px-8 md:py-7 flex justify-between items-center focus:outline-none" onclick="toggleFaq(this)">
+<span class="text-base md:text-xl font-bold text-white/90 group-hover:text-white transition-colors pr-4 leading-snug">Em quanto tempo começo a ver resultados no caixa?</span>
+<i class="faq-icon w-5 h-5 md:w-6 md:h-6 text-brand-blue transition-transform duration-500 shrink-0" data-lucide="plus"></i>
+</button>
+<div class="faq-content max-h-0 opacity-0 overflow-hidden transition-all duration-500 ease-apple bg-black/40">
+<p class="px-6 pb-6 md:px-8 md:pb-8 text-zinc-400 text-sm md:text-base font-light leading-relaxed border-t border-white/5 pt-4">
                             Tráfego não é mágica, é engenharia e dados. As primeiras semanas focam na validação da oferta e otimização do público. Geralmente, os nossos parceiros experienciam uma inversão clara do ROI (retorno positivo sustentável) a partir do segundo mês de trabalho, momento em que começamos a tracionar os orçamentos.
                         </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-[#020202] pt-16 md:pt-20 pb-8 md:pb-10 border-t border-white/5 relative z-10">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center reveal">
-            <img src="imagens/LOGO2.png" alt="Galhardi Logo" class="h-8 md:h-10 mx-auto mb-6 opacity-80 hover:opacity-100 transition-opacity object-contain">
-            <p class="text-zinc-500 max-w-md mx-auto mb-8 md:mb-10 leading-relaxed font-light text-xs md:text-sm px-4">
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-[#020202] pt-16 md:pt-20 pb-8 md:pb-10 border-t border-white/5 relative z-10">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center reveal">
+<img alt="Galhardi Logo" class="h-8 md:h-10 mx-auto mb-6 opacity-80 hover:opacity-100 transition-opacity object-contain" src="imagens/LOGO2.png"/>
+<p class="text-zinc-500 max-w-md mx-auto mb-8 md:mb-10 leading-relaxed font-light text-xs md:text-sm px-4">
                 Estratégia Digital e Tráfego Pago focado em resultado real e previsibilidade de caixa.
             </p>
-            <div class="flex justify-center gap-5 md:gap-6 mb-10 md:mb-12">
-                <a href="https://www.instagram.com/matheusgalhardii/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="w-11 h-11 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-zinc-400 hover:bg-brand-blue/10 hover:text-brand-blue hover:border-brand-blue transition-all duration-300 hover:-translate-y-1 shadow-sm hover:shadow-[0_0_15px_rgba(59,130,246,0.3)]">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-                </a>
-                <a href="https://www.linkedin.com/in/matheus-galhardi-276ba5241/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="w-11 h-11 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-zinc-400 hover:bg-brand-blue/10 hover:text-brand-blue hover:border-brand-blue transition-all duration-300 hover:-translate-y-1 shadow-sm hover:shadow-[0_0_15px_rgba(59,130,246,0.3)]">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                </a>
+<div class="flex justify-center gap-5 md:gap-6 mb-10 md:mb-12">
+<a aria-label="Instagram" class="w-11 h-11 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-zinc-400 hover:bg-brand-blue/10 hover:text-brand-blue hover:border-brand-blue transition-all duration-300 hover:-translate-y-1 shadow-sm hover:shadow-[0_0_15px_rgba(59,130,246,0.3)]" href="https://www.instagram.com/matheusgalhardii/" rel="noopener noreferrer" target="_blank">
+<svg fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><rect height="20" rx="5" ry="5" width="20" x="2" y="2"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+</a>
+<a aria-label="LinkedIn" class="w-11 h-11 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-zinc-400 hover:bg-brand-blue/10 hover:text-brand-blue hover:border-brand-blue transition-all duration-300 hover:-translate-y-1 shadow-sm hover:shadow-[0_0_15px_rgba(59,130,246,0.3)]" href="https://www.linkedin.com/in/matheus-galhardi-276ba5241/" rel="noopener noreferrer" target="_blank">
+<svg fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect height="12" width="4" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+</a>
+</div>
+<div class="border-t border-white/5 pt-6 md:pt-8 text-zinc-600 text-[10px] md:text-xs font-light tracking-wide uppercase">
+                © 2026 Matheus Galhardi. Todos os direitos reservados.
             </div>
-            <div class="border-t border-white/5 pt-6 md:pt-8 text-zinc-600 text-[10px] md:text-xs font-light tracking-wide uppercase">
-                &copy; 2026 Matheus Galhardi. Todos os direitos reservados.
-            </div>
-        </div>
-    </footer>
-
-    <!-- Botão Fixo WhatsApp -->
-    <a id="floatingWhatsApp" href="https://wa.me/5543996375303?text=Fala%20Matheus!%20Estava%20aqui%20no%20seu%20site%20e%20gostaria%20de%20trocar%20uma%20ideia." target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 md:bottom-8 md:right-8 z-[90] flex items-center justify-center w-14 h-14 md:w-16 md:h-16 bg-[#25D366] text-white rounded-full shadow-[0_4px_20px_rgba(37,211,102,0.4)] hover:scale-110 hover:shadow-[0_6px_25px_rgba(37,211,102,0.6)] transition-all duration-300 group" style="z-index:90; pointer-events:auto;" aria-label="Contato via WhatsApp">
-        <div class="absolute inset-0 rounded-full border border-[#25D366] animate-[ping_2s_cubic-bezier(0,0,0.2,1)_infinite]"></div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 24 24" class="relative z-10 md:w-8 md:h-8"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.505-.883-.814-1.479-1.82-1.653-2.118-.173-.298-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a5.8 5.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.052 0C5.495 0 .16 5.333.158 11.892c0 2.098.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.332 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
-    </a>
-
-    <!-- Modais -->
-
-    <div id="videoModal" class="fixed inset-0 z-[120] hidden" aria-labelledby="video-modal-title" role="dialog" aria-modal="true">
-        <div class="fixed inset-0 bg-black/95 backdrop-blur-xl transition-opacity cursor-pointer" onclick="closeVideoModal()"></div>
-        <div class="fixed inset-0 z-10 overflow-y-auto pointer-events-none flex items-center justify-center p-4 md:p-8">
-            <div class="relative transform transition-all pointer-events-auto scale-95 opacity-0 duration-300 flex items-center justify-center"
-                 id="videoModalContent">
-                <h2 id="video-modal-title" class="sr-only">Depoimento em vídeo</h2>
-
-                <button onclick="closeVideoModal()"
-                        aria-label="Fechar vídeo"
-                        class="absolute -top-12 right-0 text-zinc-300 hover:text-white transition-colors bg-white/10 hover:bg-white/20 rounded-full p-2.5 backdrop-blur-md flex items-center justify-center z-50">
-                    <i data-lucide="x" class="w-6 h-6"></i>
-                </button>
-
-                <!-- Player vertical 9:16 -->
-                <div class="relative h-[82vh] max-h-[860px] aspect-[9/16] max-w-[92vw] bg-[#020202] border border-white/10 rounded-[24px] md:rounded-[28px] shadow-[0_0_70px_rgba(37,99,235,0.30)] overflow-hidden">
-                    <video id="directPlayer"
-                           controls
-                           playsinline
-                           preload="none"
-                           data-src="imagens/VDGUI.MOV"
-                           class="absolute inset-0 w-full h-full object-contain bg-black">
+</div>
+</footer>
+<!-- Botão Fixo WhatsApp -->
+<a aria-label="Contato via WhatsApp" class="fixed bottom-6 right-6 md:bottom-8 md:right-8 z-[90] flex items-center justify-center w-14 h-14 md:w-16 md:h-16 bg-[#25D366] text-white rounded-full shadow-[0_4px_20px_rgba(37,211,102,0.4)] hover:scale-110 hover:shadow-[0_6px_25px_rgba(37,211,102,0.6)] transition-all duration-300 group" href="https://wa.me/5543996375303?text=Fala%20Matheus!%20Estava%20aqui%20no%20seu%20site%20e%20gostaria%20de%20trocar%20uma%20ideia." id="floatingWhatsApp" rel="noopener noreferrer" style="z-index:90; pointer-events:auto;" target="_blank">
+<div class="absolute inset-0 rounded-full border border-[#25D366] animate-[ping_2s_cubic-bezier(0,0,0.2,1)_infinite]"></div>
+<svg class="relative z-10 md:w-8 md:h-8" fill="currentColor" height="28" viewbox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.505-.883-.814-1.479-1.82-1.653-2.118-.173-.298-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a5.8 5.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.82 9.82 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.052 0C5.495 0 .16 5.333.158 11.892c0 2.098.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.332 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"></path></svg>
+</a>
+<!-- Modais -->
+<div aria-labelledby="video-modal-title" aria-modal="true" class="fixed inset-0 z-[120] hidden" id="videoModal" role="dialog">
+<div class="fixed inset-0 bg-black/95 backdrop-blur-xl transition-opacity cursor-pointer" onclick="closeVideoModal()"></div>
+<div class="fixed inset-0 z-10 overflow-y-auto pointer-events-none flex items-center justify-center p-4 md:p-8">
+<div class="relative transform transition-all pointer-events-auto scale-95 opacity-0 duration-300 flex items-center justify-center" id="videoModalContent">
+<h2 class="sr-only" id="video-modal-title">Depoimento em vídeo</h2>
+<button aria-label="Fechar vídeo" class="absolute -top-12 right-0 text-zinc-300 hover:text-white transition-colors bg-white/10 hover:bg-white/20 rounded-full p-2.5 backdrop-blur-md flex items-center justify-center z-50" onclick="closeVideoModal()">
+<i class="w-6 h-6" data-lucide="x"></i>
+</button>
+<!-- Player vertical 9:16 -->
+<div class="relative h-[82vh] max-h-[860px] aspect-[9/16] max-w-[92vw] bg-[#020202] border border-white/10 rounded-[24px] md:rounded-[28px] shadow-[0_0_70px_rgba(37,99,235,0.30)] overflow-hidden">
+<video class="absolute inset-0 w-full h-full object-contain bg-black" controls="" data-src="imagens/VDGUI.MOV" id="directPlayer" playsinline="" preload="none">
                         Seu navegador não suporta a reprodução deste vídeo.
                     </video>
-
-                    <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand-lightBlue/60 to-transparent pointer-events-none"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="imageViewerModal" class="fixed inset-0 z-[110] hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
-        <div class="fixed inset-0 bg-black/90 backdrop-blur-md transition-opacity cursor-pointer" onclick="closeImageModal()"></div>
-        <div class="fixed inset-0 z-10 overflow-y-auto pointer-events-none flex items-center justify-center p-4">
-            <div class="relative transform transition-all w-full max-w-4xl pointer-events-auto scale-95 opacity-0 duration-300" id="imageViewerContent">
-                <button onclick="closeImageModal()" aria-label="Fechar imagem" class="absolute -top-12 right-0 md:-right-12 text-zinc-400 hover:text-white transition-colors bg-white/10 hover:bg-white/20 rounded-full p-2 backdrop-blur-md"><i data-lucide="x" class="w-6 h-6"></i></button>
-                <div class="bg-black border border-white/10 p-2 rounded-2xl shadow-[0_0_50px_rgba(37,99,235,0.2)]">
-                    <img id="modalFullImage" src="" alt="Print expandido" class="w-full h-auto max-h-[85vh] object-contain rounded-xl">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="leadModal" class="fixed inset-0 z-[100] hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
-        <div class="fixed inset-0 bg-black/80 md:bg-black/60 backdrop-blur-md transition-opacity" onclick="closeModal()"></div>
-        <div class="fixed inset-0 z-10 overflow-y-auto">
-            <div class="flex min-h-full items-end md:items-center justify-center p-0 md:p-4 text-center">
-                <div class="relative transform overflow-hidden rounded-t-3xl md:rounded-3xl bg-[#09090b] border border-white/10 text-left shadow-2xl transition-all w-full md:max-w-lg mt-10 md:mt-0">
-                    <div class="h-1 w-full bg-gradient-to-r from-brand-darkBlue via-brand-blue to-brand-lightBlue"></div>
-                    <button onclick="closeModal()" aria-label="Fechar formulário" class="absolute top-5 right-5 text-zinc-500 hover:text-white transition-colors bg-white/5 rounded-full p-2"><i data-lucide="x" class="w-5 h-5"></i></button>
-                    <div class="px-5 pb-8 pt-8 md:px-10 md:pb-10 md:pt-10">
-                        <div id="formContainer">
-                            <h3 class="font-display text-2xl md:text-3xl font-bold tracking-tight text-white mb-2" id="modal-title">Bora crescer.</h3>
-                            <p class="text-xs md:text-sm text-zinc-400 mb-6 md:mb-8 font-light">Preencha os dados abaixo. Você será direcionado ao meu WhatsApp e eu mesmo retorno para analisarmos seu cenário.</p>
-                            <form id="leadForm" onsubmit="submitForm(event)" class="space-y-4 md:space-y-5">
-                                <div>
-                                    <label class="block text-[10px] md:text-xs font-medium text-zinc-400 uppercase tracking-wider mb-1 md:mb-2">Seu Nome e Empresa</label>
-                                    <input type="text" id="formNome" required class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 md:py-3.5 text-sm md:text-base text-white focus:outline-none focus:border-brand-blue focus:ring-1 focus:ring-brand-blue transition-colors placeholder:text-zinc-700" placeholder="Ex: João - Empresa XYZ">
-                                </div>
-                                <div>
-                                    <label class="block text-[10px] md:text-xs font-medium text-zinc-400 uppercase tracking-wider mb-1 md:mb-2">WhatsApp</label>
-                                    <input type="tel" id="formWhats" required class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 md:py-3.5 text-sm md:text-base text-white focus:outline-none focus:border-brand-blue focus:ring-1 focus:ring-brand-blue transition-colors placeholder:text-zinc-700" placeholder="(00) 00000-0000">
-                                </div>
-                                <div>
-                                    <label class="block text-[10px] md:text-xs font-medium text-zinc-400 uppercase tracking-wider mb-1 md:mb-2">Faturamento atual</label>
-                                    <select id="formFaturamento" required class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 md:py-3.5 text-sm md:text-base text-white focus:outline-none focus:border-brand-blue focus:ring-1 focus:ring-brand-blue transition-colors appearance-none cursor-pointer">
-                                        <option value="" disabled selected class="text-zinc-700">Selecione uma opção</option>
-                                        <option value="ate-20k" class="bg-zinc-900 text-white">Até R$ 20.000</option>
-                                        <option value="20k-50k" class="bg-zinc-900 text-white">R$ 20.000 a R$ 50.000</option>
-                                        <option value="acima-50k" class="bg-zinc-900 text-white">Acima de R$ 50.000</option>
-                                    </select>
-                                </div>
-                                <div>
-                                    <label class="block text-[10px] md:text-xs font-medium text-zinc-400 uppercase tracking-wider mb-1 md:mb-2">Momento nos Anúncios</label>
-                                    <select id="formMomento" required class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 md:py-3.5 text-sm md:text-base text-white focus:outline-none focus:border-brand-blue focus:ring-1 focus:ring-brand-blue transition-colors appearance-none cursor-pointer">
-                                        <option value="" disabled selected>Selecione uma opção</option>
-                                        <option value="sim" class="bg-zinc-900 text-white">Sim, está rodando agora</option>
-                                        <option value="nao-quero" class="bg-zinc-900 text-white">Não, mas estou pronto para começar</option>
-                                        <option value="parei" class="bg-zinc-900 text-white">Já tentei e parei</option>
-                                    </select>
-                                </div>
-                                <button type="submit" class="btn-padrao w-full mt-2 !rounded-xl py-4 !justify-center">Solicitar Análise</button>
-                                <p class="text-[10px] md:text-xs text-center text-zinc-600 mt-3 md:mt-4 flex items-center justify-center gap-1"><i data-lucide="lock" class="w-3 h-3"></i> Dados seguros</p>
-                            </form>
-                        </div>
-                        <div id="successMessage" class="hidden text-center py-10 md:py-12">
-                            <div class="w-16 h-16 md:w-20 md:h-20 bg-brand-blue/10 text-brand-blue rounded-full flex items-center justify-center mx-auto mb-4 md:mb-6 border border-brand-blue/30 shadow-[0_0_30px_rgba(37,99,235,0.2)]"><i data-lucide="message-circle" class="w-8 h-8 md:w-10 md:h-10"></i></div>
-                            <h3 class="font-display text-2xl md:text-3xl font-bold text-white mb-2 md:mb-3 tracking-tight">Tudo certo!</h3>
-                            <p class="text-zinc-400 text-sm md:text-base font-light leading-relaxed max-w-xs mx-auto">Você está sendo redirecionado para o meu WhatsApp...</p>
-                            <button onclick="closeModal()" class="mt-6 md:mt-8 w-full md:w-auto px-8 py-3 bg-white/5 border border-white/10 rounded-full text-white hover:bg-white/10 transition-colors font-medium">Fechar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Scripts -->
-    <script>
+<div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand-lightBlue/60 to-transparent pointer-events-none"></div>
+</div>
+</div>
+</div>
+</div>
+<div aria-labelledby="modal-title" aria-modal="true" class="fixed inset-0 z-[110] hidden" id="imageViewerModal" role="dialog">
+<div class="fixed inset-0 bg-black/90 backdrop-blur-md transition-opacity cursor-pointer" onclick="closeImageModal()"></div>
+<div class="fixed inset-0 z-10 overflow-y-auto pointer-events-none flex items-center justify-center p-4">
+<div class="relative transform transition-all w-full max-w-4xl pointer-events-auto scale-95 opacity-0 duration-300" id="imageViewerContent">
+<button aria-label="Fechar imagem" class="absolute -top-12 right-0 md:-right-12 text-zinc-400 hover:text-white transition-colors bg-white/10 hover:bg-white/20 rounded-full p-2 backdrop-blur-md" onclick="closeImageModal()"><i class="w-6 h-6" data-lucide="x"></i></button>
+<div class="bg-black border border-white/10 p-2 rounded-2xl shadow-[0_0_50px_rgba(37,99,235,0.2)]">
+<img alt="Print expandido" class="w-full h-auto max-h-[85vh] object-contain rounded-xl" id="modalFullImage" src=""/>
+</div>
+</div>
+</div>
+</div>
+<div aria-labelledby="modal-title" aria-modal="true" class="fixed inset-0 z-[100] hidden" id="leadModal" role="dialog">
+<div class="fixed inset-0 bg-black/80 md:bg-black/60 backdrop-blur-md transition-opacity" onclick="closeModal()"></div>
+<div class="fixed inset-0 z-10 overflow-y-auto">
+<div class="flex min-h-full items-end md:items-center justify-center p-0 md:p-4 text-center">
+<div class="relative transform overflow-hidden rounded-t-3xl md:rounded-3xl bg-[#09090b] border border-white/10 text-left shadow-2xl transition-all w-full md:max-w-lg mt-10 md:mt-0">
+<div class="h-1 w-full bg-gradient-to-r from-brand-darkBlue via-brand-blue to-brand-lightBlue"></div>
+<button aria-label="Fechar formulário" class="absolute top-5 right-5 text-zinc-500 hover:text-white transition-colors bg-white/5 rounded-full p-2" onclick="closeModal()"><i class="w-5 h-5" data-lucide="x"></i></button>
+<div class="px-5 pb-8 pt-8 md:px-10 md:pb-10 md:pt-10">
+<div id="formContainer">
+<h3 class="font-display text-2xl md:text-3xl font-bold tracking-tight text-white mb-2" id="modal-title">Bora crescer.</h3>
+<p class="text-xs md:text-sm text-zinc-400 mb-6 md:mb-8 font-light">Preencha os dados abaixo. Você será direcionado ao meu WhatsApp e eu mesmo retorno para analisarmos seu cenário.</p>
+<form class="space-y-4 md:space-y-5" id="leadForm" onsubmit="submitForm(event)">
+<div>
+<label class="block text-[10px] md:text-xs font-medium text-zinc-400 uppercase tracking-wider mb-1 md:mb-2">Seu Nome e Empresa</label>
+<input class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 md:py-3.5 text-sm md:text-base text-white focus:outline-none focus:border-brand-blue focus:ring-1 focus:ring-brand-blue transition-colors placeholder:text-zinc-700" id="formNome" placeholder="Ex: João - Empresa XYZ" required="" type="text"/>
+</div>
+<div>
+<label class="block text-[10px] md:text-xs font-medium text-zinc-400 uppercase tracking-wider mb-1 md:mb-2">WhatsApp</label>
+<input class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 md:py-3.5 text-sm md:text-base text-white focus:outline-none focus:border-brand-blue focus:ring-1 focus:ring-brand-blue transition-colors placeholder:text-zinc-700" id="formWhats" placeholder="(00) 00000-0000" required="" type="tel"/>
+</div>
+<div>
+<label class="block text-[10px] md:text-xs font-medium text-zinc-400 uppercase tracking-wider mb-1 md:mb-2">Faturamento atual</label>
+<select class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 md:py-3.5 text-sm md:text-base text-white focus:outline-none focus:border-brand-blue focus:ring-1 focus:ring-brand-blue transition-colors appearance-none cursor-pointer" id="formFaturamento" required="">
+<option class="text-zinc-700" disabled="" selected="" value="">Selecione uma opção</option>
+<option class="bg-zinc-900 text-white" value="ate-20k">Até R$ 20.000</option>
+<option class="bg-zinc-900 text-white" value="20k-50k">R$ 20.000 a R$ 50.000</option>
+<option class="bg-zinc-900 text-white" value="acima-50k">Acima de R$ 50.000</option>
+</select>
+</div>
+<div>
+<label class="block text-[10px] md:text-xs font-medium text-zinc-400 uppercase tracking-wider mb-1 md:mb-2">Momento nos Anúncios</label>
+<select class="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 md:py-3.5 text-sm md:text-base text-white focus:outline-none focus:border-brand-blue focus:ring-1 focus:ring-brand-blue transition-colors appearance-none cursor-pointer" id="formMomento" required="">
+<option disabled="" selected="" value="">Selecione uma opção</option>
+<option class="bg-zinc-900 text-white" value="sim">Sim, está rodando agora</option>
+<option class="bg-zinc-900 text-white" value="nao-quero">Não, mas estou pronto para começar</option>
+<option class="bg-zinc-900 text-white" value="parei">Já tentei e parei</option>
+</select>
+</div>
+<button class="btn-padrao w-full mt-2 !rounded-xl py-4 !justify-center" type="submit">Solicitar Análise</button>
+<p class="text-[10px] md:text-xs text-center text-zinc-600 mt-3 md:mt-4 flex items-center justify-center gap-1"><i class="w-3 h-3" data-lucide="lock"></i> Dados seguros</p>
+</form>
+</div>
+<div class="hidden text-center py-10 md:py-12" id="successMessage">
+<div class="w-16 h-16 md:w-20 md:h-20 bg-brand-blue/10 text-brand-blue rounded-full flex items-center justify-center mx-auto mb-4 md:mb-6 border border-brand-blue/30 shadow-[0_0_30px_rgba(37,99,235,0.2)]"><i class="w-8 h-8 md:w-10 md:h-10" data-lucide="message-circle"></i></div>
+<h3 class="font-display text-2xl md:text-3xl font-bold text-white mb-2 md:mb-3 tracking-tight">Tudo certo!</h3>
+<p class="text-zinc-400 text-sm md:text-base font-light leading-relaxed max-w-xs mx-auto">Você está sendo redirecionado para o meu WhatsApp...</p>
+<button class="mt-6 md:mt-8 w-full md:w-auto px-8 py-3 bg-white/5 border border-white/10 rounded-full text-white hover:bg-white/10 transition-colors font-medium" onclick="closeModal()">Fechar</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Scripts -->
+<script>
         document.addEventListener('DOMContentLoaded', () => {
             if (typeof lucide !== 'undefined') {
                 lucide.createIcons();
@@ -1052,7 +943,7 @@
             const btn = e.target.querySelector('button[type="submit"]');
             const originalText = btn.innerHTML; 
             
-            btn.innerHTML = 'Conectando ao WhatsApp...'; 
+            btn.innerHTML = currentSiteLanguage === 'en' ? 'Connecting to WhatsApp...' : (currentSiteLanguage === 'es' ? 'Conectando con WhatsApp...' : 'Conectando ao WhatsApp...'); 
             btn.disabled = true;
 
             const nome = document.getElementById('formNome').value;
@@ -1064,7 +955,11 @@
             const momSelect = document.getElementById('formMomento');
             const momento = momSelect.options[momSelect.selectedIndex].text;
 
-            const mensagem = `Fala Matheus! Preenchi o formulário no site e quero acelerar minhas vendas.\n\n*Meus dados:*\n👤 Nome/Empresa: ${nome}\n📱 WhatsApp: ${whats}\n💰 Faturamento: ${faturamento}\n📈 Momento nos anúncios: ${momento}`;
+            const mensagem = currentSiteLanguage === 'en'
+                ? `Hi Matheus! I filled out the form on your website and I want to accelerate my sales.\n\n*My details:*\n👤 Name/Company: ${nome}\n📱 WhatsApp: ${whats}\n💰 Revenue: ${faturamento}\n📈 Advertising stage: ${momento}`
+                : (currentSiteLanguage === 'es'
+                    ? `¡Hola Matheus! Completé el formulario de tu sitio y quiero acelerar mis ventas.\n\n*Mis datos:*\n👤 Nombre/Empresa: ${nome}\n📱 WhatsApp: ${whats}\n💰 Facturación: ${faturamento}\n📈 Situación con los anuncios: ${momento}`
+                    : `Fala Matheus! Preenchi o formulário no site e quero acelerar minhas vendas.\n\n*Meus dados:*\n👤 Nome/Empresa: ${nome}\n📱 WhatsApp: ${whats}\n💰 Faturamento: ${faturamento}\n📈 Momento nos anúncios: ${momento}`);
 
             const seuNumeroWhatsApp = "5543996375303"; 
             
@@ -1174,5 +1069,103 @@
         });
 
     </script>
-</body>
+<script>
+        const siteTranslations = {"Para empresas que cansaram de depender de indicação": "For companies tired of relying on referrals", "Seu negócio não pode depender de": "Your business cannot rely on", "indicação para vender.": "referrals to sell.", "Eu estruturo um ecossistema de captação para atrair pessoas com intenção de compra, qualificar os contatos certos e transformar tráfego em": "I build an acquisition ecosystem to attract people with buying intent, qualify the right leads, and turn traffic into", "clientes reais.": "real customers.", "Quero meu diagnóstico estratégico": "I want my strategic diagnosis", "Sem compromisso. Eu analiso seu cenário e mostro onde sua empresa pode estar perdendo clientes.": "No commitment. I analyze your current scenario and show where your company may be losing customers.", "Enquanto sua empresa depender de indicação,": "As long as your company relies on referrals,", "seu crescimento continua sem controle.": "your growth remains out of your control.", "Indicação mostra que sua empresa entrega bem. O problema começa quando ela vira o principal canal de entrada e as vendas passam a oscilar sem previsibilidade.": "Referrals show that your company delivers good work. The problem starts when they become your main acquisition channel and sales begin to fluctuate without predictability.", "Quem depende só de indicação não controla o fluxo de oportunidades.": "A company that relies only on referrals does not control its flow of opportunities.", "Sinais de dependência comercial": "Signs of commercial dependence", "Vendas instáveis": "Unstable sales", "Meses bons, meses fracos.": "Strong months, weak months.", "WhatsApp oscilando": "Inconsistent WhatsApp leads", "Ora aparecem contatos, ora some tudo.": "Sometimes leads appear, sometimes everything goes quiet.", "Próximo cliente incerto": "Uncertain next customer", "Você nunca sabe de onde ele virá.": "You never know where the next one will come from.", "Demanda abaixo da capacidade": "Demand below capacity", "Você consegue atender mais, mas não cresce com constância.": "You can serve more customers, but growth is not consistent.", "Como funciona o": "How does the", "Diagnóstico?": "Diagnosis work?", "Sem enrolação. É assim que começamos a transformar aquisição em um processo mais previsível.": "Straight to the point. This is how we start turning acquisition into a more predictable process.", "1. Formulário": "1. Form", "Preencha as informações básicas para eu entender o momento atual do seu negócio.": "Fill in the basic information so I can understand your business's current stage.", "2. Reunião Meet": "2. Google Meet call", "Em uma reunião estratégica via Google Meet, vou mapear onde você está perdendo dinheiro.": "In a strategic Google Meet call, I will map where your business is losing money.", "3. Plano de Ação": "3. Action Plan", "Se fizer sentido trabalharmos juntos, te apresento a engenharia exata para escalar seu funil.": "If working together makes sense, I will show you the exact system to scale your funnel.", "Negócios que trocaram indicação por": "Businesses that replaced referrals with", "previsibilidade.": "predictability.", "Depoimentos reais de operações que começaram a construir canais consistentes de aquisição, vendas e crescimento sem depender apenas do boca a boca.": "Real testimonials from businesses that built consistent acquisition, sales, and growth channels without relying solely on word of mouth.", "Clique em cada resultado para analisar a prova completa.": "Click each result to view the full proof.", "Veja como funciona na": "See how it works in", "prática.": "practice.", "Um relato real de quem viveu a estratégia na prática. Clique para assistir ao depoimento completo.": "A real story from someone who experienced the strategy firsthand. Click to watch the full testimonial.", "Depoimento real": "Real testimonial", "Veja o resultado na prática": "See the result in practice", "Clique para assistir com áudio": "Click to watch with sound", "O fim da dependência": "The end of dependence", "de": "on", "indicação.": "referrals.", "Muito prazer, sou Matheus Galhardi, criador do": "Nice to meet you, I'm Matheus Galhardi, creator of the", ". Ele nasceu não com base em teorias, mas sim na frustração de ver excelentes empresas reféns do boca a boca, sem saber de onde viria o próximo cliente.": ". It was born not from theory, but from the frustration of seeing excellent companies held hostage by word of mouth, never knowing where the next customer would come from.", "Depois de testar e validar operações reais na prática, ficou evidente: se tráfego resolvesse sozinho, todo mundo que anuncia estaria crescendo. Mas não está.": "After testing and validating real operations, one thing became clear: if traffic alone solved the problem, every company running ads would be growing. But they are not.", "O problema nunca foi apenas atrair cliques.": "The problem was never just attracting clicks.", "O problema é a falta de um ecossistema que transforma a atenção certa em uma venda previsível. O Growth Scale nasceu para ser exatamente isso: a engenharia que substitui a \"esperança\" da indicação por mais controle sobre a geração de oportunidades e o crescimento comercial.": "The problem is the lack of an ecosystem that turns the right attention into predictable sales. Growth Scale was built to do exactly that: replace the \"hope\" of referrals with greater control over opportunity generation and commercial growth.", "O foco nunca foi parecer bom.": "The goal was never to look good.", "Sempre foi construir um negócio que escala de verdade.": "It has always been to build a business that truly scales.", "mil": "K", "Gerados na prática": "Generated in practice", "Operações otimizadas": "Operations optimized", "A Engenharia do": "The Engineering Behind", "Como substituímos a esperança da indicação por um ecossistema de vendas previsível. Sem atalhos, apenas execução tática em 4 pilares.": "How we replace the hope of referrals with a predictable sales ecosystem. No shortcuts, just tactical execution across 4 pillars.", "A Base": "The Foundation", "Não adianta injetar dinheiro em estrutura furada. Arrumamos a casa e criamos uma oferta irresistível.": "There is no point pouring money into a broken structure. We fix the foundation and build an irresistible offer.", "Tração": "Traction", "Hora de ligar os motores. Campanhas orientadas por dados para atrair pessoas com intenção e perfil real de compra.": "Time to gain traction. Data-driven campaigns attract people with real buying intent and the right customer profile.", "Fechamento": "Closing", "O lead chegou, e agora? Lapidamos o processo comercial para garantir que o time não perca venda ganha.": "The lead arrived—now what? We refine the sales process so your team does not lose deals that should be won.", "A Escala": "Scale", "Validamos o funil? Então aceleramos com critério. É aqui que ampliamos o investimento com base em dados, capacidade operacional e retorno.": "Once the funnel is validated, we accelerate with discipline. This is where we increase investment based on data, operational capacity, and return.", "Aumento de Orçamento": "Budget Increase", "Maximização do LTV": "LTV Maximization", "Aplicação": "Practical", "Prática.": "Application.", "Durante o Diagnóstico Estratégico via Meet, vou analisar a sua operação inteira sob a ótica da nossa engenharia de 4 pilares.": "During the Strategic Diagnosis via Google Meet, I will analyze your entire operation through the lens of our 4-pillar framework.", "Aquisição": "Acquisition", "Você atrai quem realmente pode pagar?": "Are you attracting people who can actually afford your offer?", "Analisamos seus canais de tráfego para focar os investimentos apenas em leads com alta intenção de compra.": "We analyze your traffic channels so investment focuses only on leads with strong buying intent.", "Conversão": "Conversion", "Seu time perde vendas fáceis?": "Is your team losing easy sales?", "Mapeamos o seu funil comercial para tapar os buracos de atendimento onde o seu dinheiro está vazando.": "We map your sales funnel to close the service gaps where money is leaking.", "Operação": "Operations", "Sua estrutura aguenta o dobro de clientes?": "Can your operation handle twice as many customers?", "Avaliamos se o seu processo de entrega e atendimento escala sem quebrar a qualidade ou a sua rotina.": "We evaluate whether your delivery and service process can scale without sacrificing quality or overwhelming your routine.", "Previsibilidade": "Predictability", "O próximo mês é uma incógnita?": "Is next month still a question mark?", "Desenhamos o caminho para que o seu caixa tenha previsibilidade e não dependa de sorte ou apenas indicações.": "We design a path toward predictable cash flow that does not depend on luck or referrals alone.", "O diagnóstico revela qual pilar está limitando o crescimento do seu negócio hoje.": "The diagnosis reveals which pillar is limiting your business growth today.", "Ficou alguma": "Still have a", "dúvida?": "question?", "As respostas para as perguntas mais comuns antes de darmos o próximo passo.": "Answers to the most common questions before we take the next step.", "O Método Growth Scale serve para o meu negócio?": "Is the Growth Scale Method right for my business?", "O método foi desenhado para empresas que já têm um modelo de negócio validado, margem de lucro e equipe de vendas, mas que dependem de indicações ou estão com as vendas estagnadas. Se tem capacidade para atender mais clientes e quer previsibilidade de escala, o método é para você.": "The method was designed for companies with a validated business model, healthy margins, and a sales team, but that still rely on referrals or face stagnant sales. If you have capacity for more customers and want predictable growth, the method is for you.", "Qual é o investimento mínimo em anúncios?": "What is the minimum ad investment?", "Para que a estratégia ganhe tração e a inteligência das plataformas (Meta/Google) consiga otimizar, recomendamos um orçamento mínimo de R$ 1.500 a R$ 3.000 mensais destinados exclusivamente aos anúncios. Menos do que isto limita drasticamente a nossa capacidade de gerar volume.": "For the strategy to gain traction and for platforms such as Meta and Google to optimize effectively, we recommend a minimum monthly ad budget of R$ 1,500 to R$ 3,000 dedicated exclusively to media spend. Anything below this significantly limits our ability to generate volume.", "Vocês criam as artes e os vídeos das campanhas?": "Do you create the campaign graphics and videos?", "Não. A nossa assessoria funciona como o \"cérebro estratégico\". Nós enviamos referências estruturadas, ângulos de marketing e roteiros altamente conversivos para você. A execução (gravação e edição) fica com a sua equipe, para garantir que o seu especialista em design ou vídeo mantém a essência da sua marca.": "No. Our advisory service works as the strategic brain. We provide structured references, marketing angles, and high-converting scripts. Production—recording and editing—stays with your team so your design or video specialist preserves the essence of your brand.", "Em quanto tempo começo a ver resultados no caixa?": "How long until I start seeing results in cash flow?", "Tráfego não é mágica, é engenharia e dados. As primeiras semanas focam na validação da oferta e otimização do público. Geralmente, os nossos parceiros experienciam uma inversão clara do ROI (retorno positivo sustentável) a partir do segundo mês de trabalho, momento em que começamos a tracionar os orçamentos.": "Traffic is not magic; it is engineering and data. The first weeks focus on validating the offer and optimizing audiences. In general, our partners begin to see a clear shift toward sustainable positive ROI from the second month, when we start increasing budgets.", "Estratégia Digital e Tráfego Pago focado em resultado real e previsibilidade de caixa.": "Digital Strategy and Paid Traffic focused on real results and predictable cash flow.", "© 2026 Matheus Galhardi. Todos os direitos reservados.": "© 2026 Matheus Galhardi. All rights reserved.", "Depoimento em vídeo": "Video testimonial", "Seu navegador não suporta a reprodução deste vídeo.": "Your browser does not support video playback.", "Bora crescer.": "Let's grow.", "Preencha os dados abaixo. Você será direcionado ao meu WhatsApp e eu mesmo retorno para analisarmos seu cenário.": "Fill in the information below. You will be redirected to my WhatsApp, and I will personally follow up to analyze your situation.", "Seu Nome e Empresa": "Your Name and Company", "WhatsApp": "WhatsApp", "Faturamento atual": "Current monthly revenue", "Selecione uma opção": "Select an option", "Até R$ 20.000": "Up to R$ 20,000", "R$ 20.000 a R$ 50.000": "R$ 20,000 to R$ 50,000", "Acima de R$ 50.000": "Above R$ 50,000", "Momento nos Anúncios": "Current advertising stage", "Sim, está rodando agora": "Yes, ads are running now", "Não, mas estou pronto para começar": "No, but I'm ready to start", "Já tentei e parei": "I tried before and stopped", "Solicitar Análise": "Request Analysis", "Dados seguros": "Secure data", "Tudo certo!": "All set!", "Você está sendo redirecionado para o meu WhatsApp...": "You are being redirected to my WhatsApp...", "Fechar": "Close"};
+        const siteAttributeTranslations = {"Selecionar idioma": "Select language", "Assistir depoimento completo": "Watch full testimonial", "Contato via WhatsApp": "Contact via WhatsApp", "Fechar vídeo": "Close video", "Fechar imagem": "Close image", "Fechar formulário": "Close form", "Ex: João - Empresa XYZ": "E.g. John - Company XYZ", "Depoimento de cliente 1": "Client testimonial 1", "Depoimento de cliente 2": "Client testimonial 2", "Depoimento de cliente 3": "Client testimonial 3", "Depoimento de cliente 4": "Client testimonial 4", "Print expandido": "Expanded screenshot"};
+        const siteSpanishTranslations = {"Para empresas que cansaram de depender de indicação": "Para empresas cansadas de depender de recomendaciones", "Seu negócio não pode depender de": "Tu negocio no puede depender de", "indicação para vender.": "recomendaciones para vender.", "Eu estruturo um ecossistema de captação para atrair pessoas com intenção de compra, qualificar os contatos certos e transformar tráfego em": "Estructuro un ecosistema de captación para atraer personas con intención de compra, calificar los contactos correctos y transformar tráfico en", "clientes reais.": "clientes reales.", "Quero meu diagnóstico estratégico": "Quiero mi diagnóstico estratégico", "Sem compromisso. Eu analiso seu cenário e mostro onde sua empresa pode estar perdendo clientes.": "Sin compromiso. Analizo tu escenario y te muestro dónde tu empresa puede estar perdiendo clientes.", "Enquanto sua empresa depender de indicação,": "Mientras tu empresa dependa de recomendaciones,", "seu crescimento continua sem controle.": "su crecimiento seguirá fuera de control.", "Indicação mostra que sua empresa entrega bem. O problema começa quando ela vira o principal canal de entrada e as vendas passam a oscilar sem previsibilidade.": "Las recomendaciones demuestran que tu empresa entrega buenos resultados. El problema empieza cuando se convierten en el principal canal de entrada y las ventas comienzan a fluctuar sin previsibilidad.", "Quem depende só de indicação não controla o fluxo de oportunidades.": "Quien depende solo de recomendaciones no controla el flujo de oportunidades.", "Sinais de dependência comercial": "Señales de dependencia comercial", "Vendas instáveis": "Ventas inestables", "Meses bons, meses fracos.": "Meses buenos, meses flojos.", "WhatsApp oscilando": "WhatsApp inestable", "Ora aparecem contatos, ora some tudo.": "A veces aparecen contactos y otras veces no llega ninguno.", "Próximo cliente incerto": "Próximo cliente incierto", "Você nunca sabe de onde ele virá.": "Nunca sabes de dónde vendrá.", "Demanda abaixo da capacidade": "Demanda por debajo de la capacidad", "Você consegue atender mais, mas não cresce com constância.": "Puedes atender a más clientes, pero no creces de forma constante.", "Como funciona o": "¿Cómo funciona el", "Diagnóstico?": "Diagnóstico?", "Sem enrolação. É assim que começamos a transformar aquisição em um processo mais previsível.": "Sin rodeos. Así empezamos a transformar la adquisición en un proceso más predecible.", "1. Formulário": "1. Formulario", "Preencha as informações básicas para eu entender o momento atual do seu negócio.": "Completa la información básica para que pueda entender el momento actual de tu negocio.", "2. Reunião Meet": "2. Reunión por Meet", "Em uma reunião estratégica via Google Meet, vou mapear onde você está perdendo dinheiro.": "En una reunión estratégica por Google Meet, voy a identificar dónde estás perdiendo dinero.", "3. Plano de Ação": "3. Plan de Acción", "Se fizer sentido trabalharmos juntos, te apresento a engenharia exata para escalar seu funil.": "Si tiene sentido trabajar juntos, te presento la estructura exacta para escalar tu embudo.", "Negócios que trocaram indicação por": "Negocios que cambiaron las recomendaciones por", "previsibilidade.": "previsibilidad.", "Depoimentos reais de operações que começaram a construir canais consistentes de aquisição, vendas e crescimento sem depender apenas do boca a boca.": "Testimonios reales de negocios que empezaron a construir canales consistentes de adquisición, ventas y crecimiento sin depender únicamente del boca a boca.", "Clique em cada resultado para analisar a prova completa.": "Haz clic en cada resultado para ver la prueba completa.", "Veja como funciona na": "Mira cómo funciona en la", "prática.": "práctica.", "Um relato real de quem viveu a estratégia na prática. Clique para assistir ao depoimento completo.": "Un relato real de alguien que vivió la estrategia en la práctica. Haz clic para ver el testimonio completo.", "Depoimento real": "Testimonio real", "Veja o resultado na prática": "Mira el resultado en la práctica", "Clique para assistir com áudio": "Haz clic para ver con audio", "O fim da dependência": "El fin de la dependencia", "de": "de", "indicação.": "recomendaciones.", "Muito prazer, sou Matheus Galhardi, criador do": "Mucho gusto, soy Matheus Galhardi, creador del", ". Ele nasceu não com base em teorias, mas sim na frustração de ver excelentes empresas reféns do boca a boca, sem saber de onde viria o próximo cliente.": ". Nació no de teorías, sino de la frustración de ver excelentes empresas dependientes del boca a boca, sin saber de dónde vendría el próximo cliente.", "Depois de testar e validar operações reais na prática, ficou evidente: se tráfego resolvesse sozinho, todo mundo que anuncia estaria crescendo. Mas não está.": "Después de probar y validar operaciones reales en la práctica, quedó claro: si el tráfico resolviera todo por sí solo, todas las empresas que anuncian estarían creciendo. Pero no es así.", "O problema nunca foi apenas atrair cliques.": "El problema nunca fue solo atraer clics.", "O problema é a falta de um ecossistema que transforma a atenção certa em uma venda previsível. O Growth Scale nasceu para ser exatamente isso: a engenharia que substitui a \"esperança\" da indicação por mais controle sobre a geração de oportunidades e o crescimento comercial.": "El problema es la falta de un ecosistema que transforme la atención correcta en ventas predecibles. Growth Scale nació para ser exactamente eso: la ingeniería que reemplaza la \"esperanza\" de las recomendaciones por un mayor control sobre la generación de oportunidades y el crecimiento comercial.", "O foco nunca foi parecer bom.": "El objetivo nunca fue parecer bueno.", "Sempre foi construir um negócio que escala de verdade.": "Siempre fue construir un negocio que realmente pueda escalar.", "mil": "mil", "Gerados na prática": "Generados en la práctica", "Operações otimizadas": "Operaciones optimizadas", "A Engenharia do": "La Ingeniería del", "Como substituímos a esperança da indicação por um ecossistema de vendas previsível. Sem atalhos, apenas execução tática em 4 pilares.": "Cómo reemplazamos la esperanza de las recomendaciones por un ecosistema de ventas predecible. Sin atajos, solo ejecución táctica en 4 pilares.", "A Base": "La Base", "Não adianta injetar dinheiro em estrutura furada. Arrumamos a casa e criamos uma oferta irresistível.": "No sirve de nada invertir dinero en una estructura con fallas. Ordenamos la base y construimos una oferta irresistible.", "Tração": "Tracción", "Hora de ligar os motores. Campanhas orientadas por dados para atrair pessoas com intenção e perfil real de compra.": "Es hora de acelerar. Campañas orientadas por datos para atraer personas con intención y perfil real de compra.", "Fechamento": "Cierre", "O lead chegou, e agora? Lapidamos o processo comercial para garantir que o time não perca venda ganha.": "El lead llegó, ¿y ahora qué? Perfeccionamos el proceso comercial para evitar que el equipo pierda ventas que deberían cerrarse.", "A Escala": "La Escala", "Validamos o funil? Então aceleramos com critério. É aqui que ampliamos o investimento com base em dados, capacidade operacional e retorno.": "¿Validamos el embudo? Entonces aceleramos con criterio. Aquí aumentamos la inversión según los datos, la capacidad operativa y el retorno.", "Aumento de Orçamento": "Aumento de Presupuesto", "Maximização do LTV": "Maximización del LTV", "Aplicação": "Aplicación", "Prática.": "Práctica.", "Durante o Diagnóstico Estratégico via Meet, vou analisar a sua operação inteira sob a ótica da nossa engenharia de 4 pilares.": "Durante el Diagnóstico Estratégico por Meet, voy a analizar toda tu operación desde la perspectiva de nuestra ingeniería de 4 pilares.", "Aquisição": "Adquisición", "Você atrai quem realmente pode pagar?": "¿Atraes a personas que realmente pueden pagar?", "Analisamos seus canais de tráfego para focar os investimentos apenas em leads com alta intenção de compra.": "Analizamos tus canales de tráfico para enfocar la inversión únicamente en leads con alta intención de compra.", "Conversão": "Conversión", "Seu time perde vendas fáceis?": "¿Tu equipo pierde ventas fáciles?", "Mapeamos o seu funil comercial para tapar os buracos de atendimento onde o seu dinheiro está vazando.": "Mapeamos tu embudo comercial para cerrar las brechas de atención por donde se está perdiendo tu dinero.", "Operação": "Operación", "Sua estrutura aguenta o dobro de clientes?": "¿Tu estructura soporta el doble de clientes?", "Avaliamos se o seu processo de entrega e atendimento escala sem quebrar a qualidade ou a sua rotina.": "Evaluamos si tu proceso de entrega y atención puede escalar sin sacrificar la calidad ni sobrecargar tu rutina.", "Previsibilidade": "Previsibilidad", "O próximo mês é uma incógnita?": "¿El próximo mes sigue siendo una incógnita?", "Desenhamos o caminho para que o seu caixa tenha previsibilidade e não dependa de sorte ou apenas indicações.": "Diseñamos el camino para que tu flujo de caja sea predecible y no dependa de la suerte ni solo de recomendaciones.", "O diagnóstico revela qual pilar está limitando o crescimento do seu negócio hoje.": "El diagnóstico revela qué pilar está limitando hoy el crecimiento de tu negocio.", "Ficou alguma": "¿Te quedó alguna", "dúvida?": "duda?", "As respostas para as perguntas mais comuns antes de darmos o próximo passo.": "Las respuestas a las preguntas más comunes antes de dar el siguiente paso.", "O Método Growth Scale serve para o meu negócio?": "¿El Método Growth Scale sirve para mi negocio?", "O método foi desenhado para empresas que já têm um modelo de negócio validado, margem de lucro e equipe de vendas, mas que dependem de indicações ou estão com as vendas estagnadas. Se tem capacidade para atender mais clientes e quer previsibilidade de escala, o método é para você.": "El método fue diseñado para empresas que ya tienen un modelo de negocio validado, margen de ganancia y equipo de ventas, pero que dependen de recomendaciones o tienen las ventas estancadas. Si tienes capacidad para atender a más clientes y buscas un crecimiento predecible, el método es para ti.", "Qual é o investimento mínimo em anúncios?": "¿Cuál es la inversión mínima en anuncios?", "Para que a estratégia ganhe tração e a inteligência das plataformas (Meta/Google) consiga otimizar, recomendamos um orçamento mínimo de R$ 1.500 a R$ 3.000 mensais destinados exclusivamente aos anúncios. Menos do que isto limita drasticamente a nossa capacidade de gerar volume.": "Para que la estrategia gane tracción y los algoritmos de las plataformas (Meta/Google) puedan optimizar, recomendamos un presupuesto mínimo de R$ 1.500 a R$ 3.000 mensuales destinado exclusivamente a anuncios. Un presupuesto menor limita drásticamente nuestra capacidad de generar volumen.", "Vocês criam as artes e os vídeos das campanhas?": "¿Ustedes crean las piezas gráficas y los videos de las campañas?", "Não. A nossa assessoria funciona como o \"cérebro estratégico\". Nós enviamos referências estruturadas, ângulos de marketing e roteiros altamente conversivos para você. A execução (gravação e edição) fica com a sua equipe, para garantir que o seu especialista em design ou vídeo mantém a essência da sua marca.": "No. Nuestra asesoría funciona como el \"cerebro estratégico\". Te enviamos referencias estructuradas, ángulos de marketing y guiones de alta conversión. La ejecución —grabación y edición— queda a cargo de tu equipo para garantizar que tu especialista en diseño o video mantenga la esencia de tu marca.", "Em quanto tempo começo a ver resultados no caixa?": "¿Cuánto tiempo tarda en verse el impacto en la facturación?", "Tráfego não é mágica, é engenharia e dados. As primeiras semanas focam na validação da oferta e otimização do público. Geralmente, os nossos parceiros experienciam uma inversão clara do ROI (retorno positivo sustentável) a partir do segundo mês de trabalho, momento em que começamos a tracionar os orçamentos.": "El tráfico no es magia; es ingeniería y datos. Las primeras semanas se enfocan en validar la oferta y optimizar las audiencias. En general, nuestros socios empiezan a observar un ROI positivo y sostenible a partir del segundo mes de trabajo, cuando comenzamos a aumentar los presupuestos.", "Estratégia Digital e Tráfego Pago focado em resultado real e previsibilidade de caixa.": "Estrategia Digital y Tráfico Pago enfocados en resultados reales y previsibilidad de caja.", "© 2026 Matheus Galhardi. Todos os direitos reservados.": "© 2026 Matheus Galhardi. Todos los derechos reservados.", "Depoimento em vídeo": "Testimonio en video", "Seu navegador não suporta a reprodução deste vídeo.": "Tu navegador no admite la reproducción de este video.", "Bora crescer.": "Vamos a crecer.", "Preencha os dados abaixo. Você será direcionado ao meu WhatsApp e eu mesmo retorno para analisarmos seu cenário.": "Completa los datos a continuación. Serás dirigido a mi WhatsApp y yo mismo te responderé para analizar tu escenario.", "Seu Nome e Empresa": "Tu Nombre y Empresa", "WhatsApp": "WhatsApp", "Faturamento atual": "Facturación actual", "Selecione uma opção": "Selecciona una opción", "Até R$ 20.000": "Hasta R$ 20.000", "R$ 20.000 a R$ 50.000": "R$ 20.000 a R$ 50.000", "Acima de R$ 50.000": "Más de R$ 50.000", "Momento nos Anúncios": "Situación actual con los anuncios", "Sim, está rodando agora": "Sí, están activos ahora", "Não, mas estou pronto para começar": "No, pero estoy listo para empezar", "Já tentei e parei": "Ya lo intenté y lo detuve", "Solicitar Análise": "Solicitar Análisis", "Dados seguros": "Datos seguros", "Tudo certo!": "¡Todo listo!", "Você está sendo redirecionado para o meu WhatsApp...": "Serás redirigido a mi WhatsApp...", "Fechar": "Cerrar"};
+        const siteSpanishAttributeTranslations = {"Selecionar idioma": "Seleccionar idioma", "Assistir depoimento completo": "Ver testimonio completo", "Contato via WhatsApp": "Contacto por WhatsApp", "Fechar vídeo": "Cerrar video", "Fechar imagem": "Cerrar imagen", "Fechar formulário": "Cerrar formulario", "Ex: João - Empresa XYZ": "Ej.: Juan - Empresa XYZ", "Depoimento de cliente 1": "Testimonio de cliente 1", "Depoimento de cliente 2": "Testimonio de cliente 2", "Depoimento de cliente 3": "Testimonio de cliente 3", "Depoimento de cliente 4": "Testimonio de cliente 4", "Print expandido": "Captura ampliada"};
+        let currentSiteLanguage = 'pt';
+        let languageTextNodes = [];
+        let languageAttributeNodes = [];
+
+        function preserveWhitespace(original, replacement) {
+            const leading = original.match(/^\s*/)?.[0] || '';
+            const trailing = original.match(/\s*$/)?.[0] || '';
+            return leading + replacement + trailing;
+        }
+
+        function prepareLanguageNodes() {
+            const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+                acceptNode(node) {
+                    const parent = node.parentElement;
+                    if (!parent || ['SCRIPT', 'STYLE'].includes(parent.tagName)) return NodeFilter.FILTER_REJECT;
+                    const key = node.nodeValue.trim();
+                    return siteTranslations[key] ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+                }
+            });
+
+            let node;
+            while ((node = walker.nextNode())) {
+                const pt = node.nodeValue.trim();
+                languageTextNodes.push({ node, pt, en: siteTranslations[pt], es: siteSpanishTranslations[pt] });
+            }
+
+            document.querySelectorAll('[placeholder], [aria-label], [alt]').forEach(el => {
+                ['placeholder', 'aria-label', 'alt'].forEach(attr => {
+                    const value = el.getAttribute(attr);
+                    if (value && siteAttributeTranslations[value]) {
+                        languageAttributeNodes.push({ el, attr, pt: value, en: siteAttributeTranslations[value], es: siteSpanishAttributeTranslations[value] });
+                    }
+                });
+            });
+        }
+
+        function setLanguage(lang) {
+            currentSiteLanguage = ['pt', 'en', 'es'].includes(lang) ? lang : 'pt';
+            document.documentElement.lang = currentSiteLanguage === 'en' ? 'en' : (currentSiteLanguage === 'es' ? 'es' : 'pt-BR');
+            localStorage.setItem('site-language', currentSiteLanguage);
+
+            languageTextNodes.forEach(item => {
+                const target = item[currentSiteLanguage] || item.pt;
+                item.node.nodeValue = preserveWhitespace(item.node.nodeValue, target);
+            });
+
+            languageAttributeNodes.forEach(item => {
+                item.el.setAttribute(item.attr, item[currentSiteLanguage] || item.pt);
+            });
+
+            document.title = currentSiteLanguage === 'en'
+                ? 'Matheus Galhardi | Paid Traffic & Digital Strategy'
+                : (currentSiteLanguage === 'es'
+                    ? 'Matheus Galhardi | Tráfico Pago y Estrategia Digital'
+                    : 'Matheus Galhardi | Tráfego Pago e Estratégia Digital');
+
+            const description = document.querySelector('meta[name="description"]');
+            if (description) {
+                description.setAttribute('content', currentSiteLanguage === 'en'
+                    ? 'Acquisition and paid traffic strategy for companies that want to generate opportunities with greater predictability and less dependence on referrals.'
+                    : (currentSiteLanguage === 'es'
+                        ? 'Estrategia de adquisición y tráfico pago para empresas que quieren generar oportunidades con mayor previsibilidad y menor dependencia de recomendaciones.'
+                        : 'Estratégia de aquisição e tráfego pago para empresas que querem gerar oportunidades com mais previsibilidade e menos dependência de indicação.'));
+            }
+
+            const switcher = document.getElementById('language-switcher');
+            if (switcher) switcher.setAttribute('aria-label', currentSiteLanguage === 'en' ? 'Select language' : (currentSiteLanguage === 'es' ? 'Seleccionar idioma' : 'Selecionar idioma'));
+
+            const floatingWhatsApp = document.getElementById('floatingWhatsApp');
+            if (floatingWhatsApp) {
+                const quickMessage = currentSiteLanguage === 'en'
+                    ? 'Hi Matheus! I was checking out your website and would like to talk.'
+                    : (currentSiteLanguage === 'es'
+                        ? '¡Hola Matheus! Estuve viendo tu sitio y me gustaría conversar contigo.'
+                        : 'Fala Matheus! Estava aqui no seu site e gostaria de trocar uma ideia.');
+                floatingWhatsApp.setAttribute('href', `https://wa.me/5543996375303?text=${encodeURIComponent(quickMessage)}`);
+            }
+
+            document.querySelectorAll('.language-btn').forEach(btn => {
+                const active = btn.dataset.lang === currentSiteLanguage;
+                btn.setAttribute('aria-pressed', active ? 'true' : 'false');
+                btn.classList.toggle('bg-brand-blue', active);
+                btn.classList.toggle('text-white', active);
+                btn.classList.toggle('shadow-[0_0_16px_rgba(59,130,246,0.35)]', active);
+                btn.classList.toggle('text-zinc-400', !active);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            prepareLanguageNodes();
+            const savedLanguage = localStorage.getItem('site-language');
+            setLanguage(['en', 'es'].includes(savedLanguage) ? savedLanguage : 'pt');
+        });
+</script></body>
 </html>
